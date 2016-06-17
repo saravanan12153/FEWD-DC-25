@@ -31,7 +31,7 @@ For the first assignment, you will begin creating the beginnings of your first w
 
 ##Submission
 
-Students will create a zip file of their completed assignment called "yourname-lesson1-hw" and add that file to the Slack *#homework* channel.
+You will create a zip file of your completed assignment called "lesson-01-hw-yourname.zip" and add that file to the Slack *#homework* channel. Eventually, you'll be using github to do all of this but lets not get ahead of ourselves just yet.
 
 ##Evaluation
 
