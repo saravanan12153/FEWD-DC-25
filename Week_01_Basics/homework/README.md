@@ -1,12 +1,9 @@
 #FEWD Week #1: HTML/CSS Basics
 
----
-
 ##Description
 
 For the first assignment, you will begin creating the beginnings of your first website. Take what you've learned from class and build a portfolio site that showcases all of the projects you'll be completing over the next few weeks. Build two pages - an 'About Page' and a 'Portfolio' - that link to one another. Your 'About Page' should describe your mission and value proposition and your 'Portfolio' should include [screenshots](starter_code/images) with descriptions of the work you [will] do for Relaxr, Startup Matchmaker, and CitiPix. Don't worry if you can't come up with any text for the pages--we've provided you with [some sample copy](starter_code/sample_copy.txt) that you can use.
 
----
 
 ##Real-World Applications
 
@@ -15,8 +12,6 @@ For the first assignment, you will begin creating the beginnings of your first w
 - Add images to a website to improve SEO
 - Clearly articulate your skills and experience on a landing page
 - Provide customers or site visitors with important contact and social media information in a format they're accustomed to
-
----
 
 ##Technical Requirements
 
@@ -33,9 +28,7 @@ For the first assignment, you will begin creating the beginnings of your first w
 
 - Experiment by adding additional HTML tags and CSS properties we did not cover in class - explore!
 
----
 
 ##Evaluation / Submission
 
-Students will create a new repository on GitHub called "homework-portfolio" and push their code to this new repository when they are ready to submit. The instructional team will grade each technical requirement and provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  The maximum possible score on this assignment is 16/16. 
-
+Students will create a new repository on GitHub called "homework-portfolio" and push their code to this new repository when they are ready to submit. The instructional team will grade each technical requirement and provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  The maximum possible score on this assignment is 16/16.
