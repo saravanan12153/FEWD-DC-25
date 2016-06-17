@@ -33,6 +33,6 @@ By the end of this class, you will:
 
 
 ##Assignments
-* In class: [Lab 1 - Cookie Recipe in HTML](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/01_html_basics/starter_code/cookie_recipe)
-* In class: [Lab 2 - GA Press Release Sample](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/01_html_basics/starter_code/ga_press_release)
+* In class: [Lab 1 - Cookie Recipe in HTML](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/01_html_basics/assignments/cookie_recipe)
+* In class: [Lab 2 - GA Press Release Sample](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/01_html_basics/assignments/ga_press_release)
 * Homework: [Start on the create a portfolio site](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/homework)
