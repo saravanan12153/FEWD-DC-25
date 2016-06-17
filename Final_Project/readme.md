@@ -5,7 +5,7 @@
 ---
 
 
-###Description 
+###Description
 
 For the final project, you'll be designing and building a website of your choice. This project will test your knowledge of front-end web development and ask you to apply everything you've learned in this course. The result will be a website that you can add to your portfolio.  You could create: a portfolio website; a marketing website for a startup or business; or a prototype for a simple web-app. Work with your instructor and EIR's to create project goals that are realistic given the scope and timing of the class.
 
@@ -25,7 +25,7 @@ Use HTML to correctly structure the DOM
 ###Real-World Applications
 
 - Demonstrate an understanding of all topics covered during this course:
-  
+
   - Structure, design, and style your site with HTML and CSS
   - Use JavaScript and jQuery to make your site interactive
   - Combine technical and design skills to create a responsive website that is compatible with mobile devices
@@ -39,13 +39,13 @@ Use HTML to correctly structure the DOM
 ---
 
 
-###Technical Requirements 
+###Technical Requirements
 
 - Demonstrate that you have taken the appropriate steps to plan and build your website by submitting all milestones by their due dates:
-  - Project Proposal / Wireframes 
-  - Draft of HTML / CSS (no JS) 
-  - First draft of JS 
-  - Updated Rough Draft 
+  - Project Proposal / Wireframes
+  - Draft of HTML / CSS (no JS)
+  - First draft of JS
+  - Updated Rough Draft
 
 - Use HTML to correctly structure the DOM:
   - Use HTML5 structural elements (header, footer, nav, footer)
@@ -103,4 +103,3 @@ You can host your final project on the web for free, using GitHub pages. Watch [
 ###Evaluation / Submission
 
 Students will create a new repository on GitHub for their final project and push their code to this new repository when they are ready to submit. The instructional team will grade each technical requirement and provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  **Note**: If bullet points have child bullets, the instructional team should grade the child bullets and not the parent bullet belonging to the child. The maximum possible score on this assignment is 22/22. Bonus sections are completely optional.
-
