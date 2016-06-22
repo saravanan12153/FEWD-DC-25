@@ -4,25 +4,31 @@
 
 In our second lesson, you'll be learning some of the essential parts of CSS.
 
-##Agenda
+##Agenda - First Half of the Class
 
-*	Introduction to GA and Instructional Team
-* Tools and Resources for FEWD
-* HTML Structure and the Document Object Model
-* HTML tags
-* Semantic HTML
+*	Introduction Erica, Office Hours
+* Review HTML and Semantics
+* HTML Tables
+* CSS Selectors, Properties and Values
+
+##Agenda - Second Half of the Class
+
+* CSS Properties, What is the good stuff?
+* Linking in HTML Documents
+* Cascading / Inheritance of CSS
+* The Document Object Model Drawing DOM Trees
 
 ##Objectives
 
 By the end of this class, you will:
 
-* Know other classmates and instructor by name
-* Reviewed class syllabus that outlines lessons, expectations and assignments
-* Understand basic tools required for the course (Slack, Sublime, Chrome)
-* Have a high level understanding of what the DOM is
-* Understand regular and void HTML tags, Head / Body of HTML document
-* Have a good understanding of basic HTML content tags
-* BONUS: Semantic HTML best practices and when to use various HTML tags
+* Know Erica and the Class Office Hours
+* How to layout an HTML table
+* What the difference between CSS Selectors, Properties and Values
+* How to link HTML Documents
+* How CSS cascades / inherits
+* What the DOM is
+
 
 ##Materials
 
