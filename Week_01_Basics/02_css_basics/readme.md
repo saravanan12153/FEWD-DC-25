@@ -1,5 +1,3 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
-
 #Lesson 02 - Introduction to CSS
 
 In our second lesson, you'll be learning some of the essential parts of CSS.
@@ -32,13 +30,15 @@ By the end of this class, you will:
 
 ##Materials
 
-* Slide deck in [Keynote](GA-FEWD-lesson01-intro-and-html.key) or [PDF](GA-FEWD-lesson01-intro-and-html.pdf)
-* HTML Tag Overview [PDF](html-tags.pdf)
-* HTML Semantic Usage Guide [PDF](h5d-sectioning-flowchart.pdf)
-* [Lesson 1 Codepen Collection](http://codepen.io/collection/neYzOR/)
+* Slide deck in [Keynote](GA-FEWD-lesson02-css-basics.key) or [PDF](GA-FEWD-lesson02-css-basics.pdf)
+* CSS Properties Cheat Sheet [PDF](CSS2-Visual-Cheat-Sheet.pdf)
+* [Lesson 2 Codepen Collection](http://codepen.io/collection/DPMGOB/)
 
 
 ##Assignments
-* In class: [Lab 1 - Cookie Recipe in HTML](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/01_html_basics/assignments/cookie_recipe)
-* In class: [Lab 2 - GA Press Release Sample](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/01_html_basics/assignments/ga_press_release)
-* Homework: [Start on the create a portfolio site](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/homework)
+* In class: [Lab 1 - Review of HTML Structure](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/01-structure-it)
+* In class: [Lab 2 - MIT Technology Review page](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/02-semantic-layout)
+* In class: [Lab 3 - HTML Tables page](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/03-table-for-your-troubles)
+* In class: [Lab 4 - Selectors](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/04-css-identification)
+* In class: [Lab 5 - CSS / HTML Lab](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/05-css-experiment-time)
+* Homework: [Work on the create a portfolio site - due Sunday night](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/homework)
