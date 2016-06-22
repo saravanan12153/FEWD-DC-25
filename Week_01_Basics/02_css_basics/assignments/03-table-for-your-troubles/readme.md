@@ -1,8 +1,6 @@
 #HTML Tables
 
-Try laying this out into an HTML table.
-
-=============================
+Try laying this out into an HTML table. NOTE - you also have a table sample HTML file in this folder to help you out.
 
 <table>
 	<caption>10 Best NBA Teams of All Time</caption>
@@ -21,7 +19,7 @@ Try laying this out into an HTML table.
   	</tr>
   	<tr>
   		<td>2</td>
-  		<td>1996-97</td> 
+  		<td>1996-97</td>
   		<td>Chicago Bulls  </td>
   	</tr>
     <tr>
