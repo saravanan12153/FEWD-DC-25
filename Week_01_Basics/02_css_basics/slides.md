@@ -1,43 +1,4 @@
-![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
-
-#FEWD 23 Lesson 2
-
-##CSS Basics
-
----
-
-##Agenda
-
-* HTML Basics Review / The DOM
-* More About CSS / Colors
-* Images & Links
-* Lab Time
-
-Note:
-Learning Objectives
-- Apply and explain CSS “cascade” including: importance, specificity and inheritance.
-- Describe the DOM and draw simple DOM tree.
-- Predict image paths and apply relative paths to ```<img>``` and ```<a>``` tags.
-- Experiment with margin and border.
-
----
-
-## But First!!
-### Let's talk about Sublime
-
-Note:
-Talk about how to organize files and add as a project.
-
----
-
-#HTML Basics Review
-
-Note:
-Review
-- What is a tag
-- What tags do you remember from Tuesday?
-
----
+# BONUS - CSS Basics
 
 ##DOM
 
@@ -65,12 +26,8 @@ Review
 Note:
 Talk about title tag, what goes in head vs. body.
 
----
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
 ## Let's Talk About Styles
-
----
 
 ##Where does CSS go?
 
@@ -78,13 +35,14 @@ Talk about title tag, what goes in head vs. body.
 * In the `head`
 * In a separate file
 
----
 
 ##Using a separate CSS file
 
 It's best practice to put CSS in its own file and link to it from the `<head>`.
 
-```<link rel="stylesheet" href="style.css">```
+```
+<link rel="stylesheet" href="style.css">
+```
 
 ---
 
@@ -149,7 +107,6 @@ Every declaration is a **property** followed by a **value**, separated by a colo
 
 In this declaration, we are setting the `color` **property** to the **value** `red`.
 
----
 
 ##CSS Break Down
 
@@ -164,7 +121,6 @@ Note:
 	* What **value** are we setting that **property** to?
 	* Try writing a new set of styles for another element, like an `h1`.
 
----
 
 ##CSS Break Down
 
@@ -173,22 +129,6 @@ Why might we want to link to a separate CSS file?
 Note:
 Discuss as a class
 
----
-
-##Cascading Style Sheets (CSS)
-
-What does __cascading__ mean?
-
----
-
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-
-## Cookie Recipe
-
-Note:
-https://www.dropbox.com/sh/0ns1wz34ej9a2vj/AAAvJpblLe4rI9nz03SvhA0Ta?dl=0
-
----
 
 ##Colors
 
@@ -259,7 +199,7 @@ Full URL
 ```
 <img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
 ```
-		
+
 Note:
 Make sure you have permission to use that image!
 
@@ -275,7 +215,7 @@ Inside ```webroot```, a relative path could be used:
 
 ##Images
 Relative Path
-	
+
 ```
 <img src="images/logo.png">
 ```
@@ -292,7 +232,7 @@ Absolute Path
 
 Note:
 	Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with: ```<img src="/images/logo.png">```
-	
+
 	The benefit here is that this same ```src``` path works on any html page, no matter what its location, so the same ```img``` tag can be used on both the ```webroot/index.html``` page and the ```webroot/about/index.html``` page.
 
 	The downside is that the path only works if the project is stored to a proper location for serving.
@@ -314,7 +254,7 @@ A piece of text to be used in lieu of the image when the image is unavailable
 Why didn't my image load?
 
 Note:
-Reasons an image may not load: 
+Reasons an image may not load:
 - There was a connection error, the browser didn't download the image.
 - The file was not found, perhaps because the image got moved elsewhere and the page wasn't updated yet to reflect the change.
 - The user is running a text-based browser such as an older phone with a WAP-style browser, or a non-graphical browser like lynx.
@@ -336,17 +276,4 @@ Images
 - GIF: Can have basic transparency, typically a `png` is used instead.
 - No transparency, can be stored at different compression levels with varying amounts of "lossy-ness", typically the best format for photos. (Try to balance between photo quality and file size.)
 
----
-
-##What About Links?
-
----
-
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-
-# Lab Time!
-## Your Portfolio
-
-Note:
-https://www.dropbox.com/sh/fk9ng2b1u6728xr/AACfafhxdy2bERaUDaHVMPxva?dl=0
-
+Thanks to Joni Halabi for this information!
