@@ -2,22 +2,70 @@
 
 Try laying this out into an HTML table.
 
-==============================
+=============================
 
-##10 Best NBA Teams of All Time
-
-| RANK | SEASON                                | TEAM                   |
-|-----------------------------------------------------------------------|
-| 1    | 1995-96                               | Chicago Bulls          |
-| 2    | 1996-97                               | Chicago Bulls          |
-| 3    | 2015-16                               | Golden State Warriors  |
-| 4    | 2014-15                               | Golden State Warriors  |
-| 5    | 1985-86                               | Boston Celtics         |
-| 6    | 2015-16                               | San Antonio Spurs      |
-| 7    | 2008-09                               | Los Angeles Lakers     |
-| 8    | 1991-92                               | Chicago Bulls          |
-| 9    | 1997-98                               | Chicago Bulls          |
-| 10   | 1990-91                               | Chicago Bulls          |
+<table>
+	<caption>10 Best NBA Teams of All Time</caption>
+	<thead>
+  	<tr>
+  		<th>Rank</th>
+  		<th>Season</th>
+  		<th>Team</th>
+  	</tr>
+	</thead>
+	<tbody>
+  	<tr>
+  		<td>1</td>
+  		<td>1995-96</td>
+  		<td>Chicago Bulls  </td>
+  	</tr>
+  	<tr>
+  		<td>2</td>
+  		<td>1996-97</td> 
+  		<td>Chicago Bulls  </td>
+  	</tr>
+    <tr>
+      <td>3</td>
+      <td>2015-16</td>
+      <td>Golden State Warriors</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2014-15</td>
+      <td>Golden State Warriors</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>1985-86</td>
+      <td>Boston Celtics</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>2015-16</td>
+      <td>San Antonio Spurs</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>2008-09</td>
+      <td>Los Angeles Lakers</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>1991-92</td>
+      <td>Chicago Bulls  </td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>1997-98 </td>
+      <td>Chicago Bulls  </td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>1990-91 </td>
+      <td>Chicago Bulls  </td>
+    </tr>
+	</tbody>
+</table>
 
 Source:
 [FiveThirtyEight.com](http://fivethirtyeight.com/features/after-all-that-the-warriors-arent-even-the-second-best-team-ever/)
