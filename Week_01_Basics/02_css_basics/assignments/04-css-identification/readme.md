@@ -12,14 +12,14 @@ p {
 
 ###2
 ```
-.container-left, #span {
+span {
   padding: 15px;
 }
 ```
 
 ###3
 ```
-table > td {
+table td {
   color: #222;
 }
 ```
@@ -40,7 +40,7 @@ table > td {
 }
 ```
 
-##What's different about the following three classes?
+##What's different about the following three selectors?
 
 ###6
 ```

@@ -15,3 +15,9 @@ https://25iq.com/2016/06/18/a-dozen-things-ive-learned-from-elon-musk-about-busi
 http://www.theatlantic.com/technology/archive/2016/06/antikythera-mechanism-whoa/487832/
 
 ![Political Rally](rally.jpg)
+
+How many days are in a week?
+5
+8
+7
+3
