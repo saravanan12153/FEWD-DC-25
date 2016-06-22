@@ -39,6 +39,9 @@ John is a displaced Texan who's been up in the national capital leading large-sc
 ### Caitlin Daitch (TA)
 Caitlin Daitch is currently a Front-End Web Developer at Fundrise in Dupont Circle. She was formerly a Digital Producer/Project Manager at a local digital agency and decided to switch careers after taking FEWD15. She graduated from General Assembly's Web Development Immersive program in April and is now a full-time web developer. Fun fact: her former FEWD instructor is now her boss at Fundrise!
 
+### Erica Irving (TA)
+Erica Irving is a Front-End Web Developer at The Washington Post. She graduated from General Assembly's Web Development Immersive program in September 2015, then worked at GA as a developer-in-residence for the October-January cohort. 
+
 ### Tim Foley (Course Producer)
 As your Course Producer, it's Tim's job to make sure that you (and your instructors) have everything you need for a successful experience in FEWD. **If you've got a question, and you're not sure who to ask, start with Tim!**
 
