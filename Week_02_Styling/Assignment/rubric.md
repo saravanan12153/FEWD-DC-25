@@ -2,7 +2,8 @@
 
 ---
 
-## Description
+
+###Description
 
 
 A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a new landing page for their company. They've handed you the design file for the site, along with the copy and assets. You need to take these files and turn it into a landing page.
@@ -21,5 +22,4 @@ Project URL: ____________________________________
 | Style your text with the Google Fonts provided by your style guide                                                            |                                |                        |                          |
 | Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes |                                |                        |                          |
 | Indent nested elements to increase your code's readability                                                                    |                                |                        |                          |
-| Use float/clear or the width property to create more than one column on your page                                             |                                |                        |                          |
-| TOTAL: ______/14                                                                                                              |                                |                        |                          |
+| TOTAL: ______/12                                                                                                              |                                |                        |                          |
