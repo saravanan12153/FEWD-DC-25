@@ -28,8 +28,8 @@ By the end of this class, you will:
 ##Materials
 
 * Slide deck in [Keynote](GA-FEWD-lesson03-box-model.key) or [PDF](GA-FEWD-lesson03-box-model.pdf)
-* CSS Properties Cheat Sheet [PDF](CSS2-Visual-Cheat-Sheet.pdf)
-* [Lesson 3 Codepen Collection](http://codepen.io/collection/DPMGOB/)
+* CSS Box Model Explanation [CSS-tricks](https://css-tricks.com/the-css-box-model/)
+* [Lesson 3 Codepen Collection](http://codepen.io/collection/XbrBEB/)
 
 
 ##Assignments
