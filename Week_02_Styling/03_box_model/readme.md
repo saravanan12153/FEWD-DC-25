@@ -29,6 +29,7 @@ By the end of this class, you will:
 
 * Slide deck in [Keynote](GA-FEWD-lesson03-box-model.key) or [PDF](GA-FEWD-lesson03-box-model.pdf)
 * CSS Box Model Explanation [CSS-tricks](https://css-tricks.com/the-css-box-model/)
+* GREAT 5 video series on the box model [YouTube](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeEM254gHVHz26yswh59Hih)
 * [Lesson 3 Codepen Collection](http://codepen.io/collection/XbrBEB/)
 
 
