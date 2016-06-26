@@ -29,13 +29,11 @@ By the end of this class, you will:
 
 * Slide deck in [Keynote](GA-FEWD-lesson03-box-model.key) or [PDF](GA-FEWD-lesson03-box-model.pdf)
 * CSS Properties Cheat Sheet [PDF](CSS2-Visual-Cheat-Sheet.pdf)
-* [Lesson 2 Codepen Collection](http://codepen.io/collection/DPMGOB/)
+* [Lesson 3 Codepen Collection](http://codepen.io/collection/DPMGOB/)
 
 
 ##Assignments
-* In class: [Lab 1 - Review of HTML Structure](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/01-structure-it)
-* In class: [Lab 2 - MIT Technology Review page](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/02-semantic-layout)
-* In class: [Lab 3 - HTML Tables page](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/03-table-for-your-troubles)
-* In class: [Lab 4 - Selectors](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/04-css-identification)
-* In class: [Lab 5 - CSS / HTML Lab](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/02_css_basics/assignments/05-css-experiment-time)
-* Start on Homework: [Work on the create a portfolio site - due Sunday night](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_01_Basics/homework)
+* In class: [CSS Reference](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_02_Styling/03_box_model/assignments/00-css-reference)
+* In class: [Lab 1 - Webpage Build](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_02_Styling/03_box_model/assignments/01-practice-makes-perfect)
+* In class: [Lab 2 - DOM Tree](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_02_Styling/03_box_model/assignments/02-dom-tree)
+* Start on Homework: [Work on the Relaxr site - due Sunday night](https://github.com/ga-students/FEWD-DC-25/tree/master/Week_02_Styling/homework)
