@@ -1,12 +1,15 @@
 ##CSS Experimentation
 
-We've gone over some good properties to use but they are hard to grasp without actually using them. Included in this assignment is a  (mostly) REAL chunk of a website I've built.
+We've gone over some good properties to use but they are hard to grasp without actually using them. Included in this assignment is a (mostly) REAL chunk of a website I've built.
 
 ###Style time
 
-The goal here is to take 30 minutes and really get to know the world of stylesheets. Use the cheatsheet guide, notes from class and resources that have been recommended in class. Some ideas to get you going:
+Your goal is to make each section of this page look like this example:
 
-- Try to use font, background and text classes
-- Move the images around the page
-- Change the color of some of the words
-- Make text align differently
+![Design Goal](img/target-look.png)
+
+1) Your first task is to use the font, background and text classes to improve the look of this page.
+
+2) Your second task is to link the images to page using relative links.
+
+3) Your third task is to consider the box model and use padding and margin around each section of content.

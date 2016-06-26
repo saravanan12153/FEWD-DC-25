@@ -1,3 +1,4 @@
+/* Font properties */
 .sample-font-family {
   font-family: Arial, sans-serif;
 }
@@ -23,6 +24,7 @@
   font: italic bold 30px/1.4 Arial;
 }
 
+/* Text Properties */
 .sample-text-align {
   text-align: center;
 }
@@ -35,6 +37,7 @@
   text-transform: uppercase;
 }
 
+/* Colors */
 .sample-01 {
   color: limegreen;
 }
@@ -51,6 +54,7 @@
   color: hsla(343, 100%, 40%, 1);
 }
 
+/* Backgrounds */
 .sample-05 {
   background-color: #ffa3fa;
 }
@@ -87,4 +91,55 @@
   color: #222;
   height: 600px;
   width: 600px;
+}
+
+/* Margin, Padding, Border */
+.sample-10 {
+  background-color: rgba(97, 255, 213, 1);
+  height: 200px;
+  margin: 50px;
+  width: 200px;
+}
+
+.sample-11 {
+  background-color: rgba(97, 255, 213, 1);
+  height: 200px;
+  padding: 50px;
+  width: 200px;
+}
+
+.sample-12 {
+  background-color: rgba(97, 255, 213, 1);
+  border: 10px solid #222;
+  height: 200px;
+  padding: 50px;
+  width: 200px;
+}
+
+.sample-13 {
+  background-color: rgba(97, 255, 213, 1);
+  border: 10px solid #222;
+  height: 200px;
+  padding: 50px;
+  margin: 50px;
+  width: 200px;
+}
+
+.sample-14 {
+  background-color: rgba(97, 255, 213, 1);
+  border: 10px solid #222;
+  height: 200px;
+  padding: 50px;
+  margin: 50px;
+  width: 200px;
+}
+
+.sample-15 {
+  background-color: rgba(97, 255, 213, 1);
+  border: 10px solid #222;
+  height: 200px;
+  overflow: hidden;
+  padding: 50px;
+  margin: 50px;
+  width: 200px;
 }
