@@ -1,0 +1,80 @@
+/* Set up float containers */
+.main-container {
+  background-color: #ffab6b;
+  color: #fff;
+  font-size: 30px;
+  height: 200px;
+  margin-top: 15px;
+}
+
+.secondary-container {
+  background-color: #ffab6b;
+  color: #fff;
+  font-size: 30px;
+  height: 400px;
+  margin-top: 15px;
+  padding: 25px;
+}
+
+.tertiary-container {
+  background-color: #313300;
+  color: #fff;
+  font-size: 30px;
+  height: 400px;
+  margin-top: 15px;
+  padding: 25px;
+}
+
+/* Floated Elements */
+.box-1 {
+  background-color: #4d7000;
+  color: #999;
+  float: left;
+  height: 200px;
+  /* overflow: hidden; */
+  padding: 0 5%;
+  width: 23.3%;
+}
+
+.box-2 {
+  background-color: #006170;
+  float: left;
+  height: 200px;
+  width: 33.3%;
+}
+
+.box-3 {
+  background-color: #700036;
+  float: left;
+  height: 200px;
+  width: 33.3%;
+}
+
+.box-4, .box-5, .box-6, .box-7 {
+  float: left;
+  height: 200px;
+  width: 25%;
+}
+
+.box-4 {
+  background-color: #fcffa3;
+}
+
+.box-5 {
+  background-color: #c2ceff;
+}
+
+.box-6 {
+  background-color: #ffc2c2;
+}
+
+.box-7 {
+  background-color: #ffc2fb;
+}
+
+/* Clearfix - one of multiple ways to do this */
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+}

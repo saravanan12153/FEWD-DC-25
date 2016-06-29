@@ -1,11 +1,6 @@
 #FEWD Week #2: Styling with CSS
 
 
-<br>
-
----
-
-
 ###Description
 
 
@@ -14,11 +9,7 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 
 ![Relaxr Landing Page](https://i.imgur.com/aiNUaDW.png)
 
-*Note: For a view of the full page, see the [jpg](starter_code/images/relaxr_landing.jpg) provided in the deliverable. Don't be alarmed if your font sizes don't perfectly match what you see in the jpg - trust in the design file!*
-
-<br>
-
----
+*Note: For a view of the full page, see the [basic jpg](starter_code/images/relaxr_landing.jpg) provided in the deliverable. If you want an extra challenge try out the [enhanced jpg](starter_code/images/relaxr_landing_enhanced.jpg)*
 
 
 ###Real-World Applications
@@ -31,25 +22,15 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 - Use the Box Model to style element borders and structure your page
 
 
-
-<br>
-
----
-
-
 ###Technical Requirements
 
 - Use HTML5 structural elements (nav, header, footer)
 - Use a CSS Reset file in addition to your style.css file to style the page
 - Use IDs and Classes to to select and style elements on the page
-- Style your text with the Google Fonts provided by your style guide
 - Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes
 - Indent nested elements to increase your code's readability
+- Use CSS display and float to get the layout correct
 
-
-<br>
-
----
 
 ###Resources
 
@@ -61,27 +42,22 @@ A hot, new NY Tech Startup, Relaxr, has approached you to help them develop a ne
 - Relaxr's [design file](starter_code/design_file)
 
 
-
-
-
-<br>
-
----
-
 ###Submission
 
 You will create a zip file of your completed assignment called "lesson-02-hw-yourname.zip" and add that file to the Slack *#homework* channel. Eventually, you'll be using github to do all of this but lets not get ahead of ourselves just yet.
 
 ###Evaluation
 
+NOTE - if you successfully complete the enhanced version, you get an extra two points on this assignment.
+
 
 |                                                                                                                               |                                |                        |                          |
 |-------------------------------------------------------------------------------------------------------------------------------|--------------------------------|------------------------|--------------------------|
 | Technical Requirements                                                                                                        | Does Not Meet Expectations (0) | Meets Expectations (1) | Exceeds Expectations (2) |
 | Use HTML5 structural elements (nav, header, footer)                                                                           |                                |                        |                          |
-| Use a CSS Reset file in addition to your style.css file to style the page                                                     |                                |                        |                          |
+| Use a CSS Reset file in addition to your style.css file to style the page (use of margin, padding, border properly)                                                    |                                |                        |                          |
 | Use IDs and Classes to to select and style elements on the page                                                               |                                |                        |                          |
-| Style your text with the Google Fonts provided by your style guide                                                            |                                |                        |                          |
+| Use of float and clear and display properties where appropriate                                                           |                                |                        |                          |
 | Follow naming conventions, maintain consistency across .html and .css files and use best practices for naming IDs and Classes |                                |                        |                          |
 | Indent nested elements to increase your code's readability                                                                    |                                |                        |                          |
 | TOTAL: ______/12                                                                                                              |                                |                        |                          |

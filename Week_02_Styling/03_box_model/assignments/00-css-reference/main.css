@@ -1,6 +1,6 @@
 /* Font properties */
 .sample-font-family {
-  font-family: Arial, sans-serif;
+  font-family: "Custom font name", Arial, sans-serif;
 }
 
 .sample-font-size {
@@ -30,11 +30,11 @@
 }
 
 .sample-text-decoration {
-  text-decoration: line-through;
+  text-decoration: underline;
 }
 
 .sample-text-transform {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 /* Colors */
@@ -70,7 +70,7 @@
 .sample-07 {
   background-color: #ffa3fa;
   background-image: url(http://67.media.tumblr.com/30b1b0d0a42bca3759610242a1ff0348/tumblr_nnjxy1GQAA1tpo3v2o1_540.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   color: #fff;
   height: 600px;
   width: 600px;
@@ -79,15 +79,15 @@
 .sample-08 {
   background-color: #ffa3fa;
   background-image: url(http://67.media.tumblr.com/30b1b0d0a42bca3759610242a1ff0348/tumblr_nnjxy1GQAA1tpo3v2o1_540.jpg);
-  background-position: bottom right;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #222;
-  height: 600px;
-  width: 600px;
+  height: 300px;
+  width: 300px;
 }
 
 .sample-09 {
-  background: #ffa3fa url(http://67.media.tumblr.com/30b1b0d0a42bca3759610242a1ff0348/tumblr_nnjxy1GQAA1tpo3v2o1_540.jpg) bottom right no-repeat;
+  background: #ffa3fa bottom right no-repeat;
   color: #222;
   height: 600px;
   width: 600px;
@@ -97,7 +97,7 @@
 .sample-10 {
   background-color: rgba(97, 255, 213, 1);
   height: 200px;
-  margin: 50px;
+  margin: 25px auto;
   width: 200px;
 }
 
@@ -110,7 +110,7 @@
 
 .sample-12 {
   background-color: rgba(97, 255, 213, 1);
-  border: 10px solid #222;
+  border-left: 5px solid #222;
   height: 200px;
   padding: 50px;
   width: 200px;
@@ -138,7 +138,7 @@
   background-color: rgba(97, 255, 213, 1);
   border: 10px solid #222;
   height: 200px;
-  overflow: hidden;
+  overflow: scroll;
   padding: 50px;
   margin: 50px;
   width: 200px;
