@@ -1,0 +1,62 @@
+/* 
+ * MAIN STYLES
+ */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+header {
+	background-color: #000;
+	color: #fff;
+	font-size: 1.5em;
+	padding: 1em;
+	text-transform: uppercase;
+}
+
+/* 
+ * COLUMNS STYLES
+ */
+
+.columns {
+	height: 500px;
+}
+
+.columns h2 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.columns ul {
+	margin-left: 2em;
+}
+
+.columns li {
+	list-style-type: disc;
+	padding: 0 5px;
+}
+
+.columns p,
+.columns li {
+	line-height: 1.2em;
+}
+
+/* 
+ * DIFFERENT SECTIONS, DIFFERENT STYLES
+ */
+
+#section1 {
+	background-color: #ff9999;
+}
+
+#section2 {
+	background-color: #99ff99;
+}
+
+#section3 {
+	background-color: #9999ff;
+}
