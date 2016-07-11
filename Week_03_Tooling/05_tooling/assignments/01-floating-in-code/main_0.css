@@ -1,0 +1,69 @@
+/* Float demo */
+.container-1, .container-4 {
+  height: 200px;
+  background-color: #666;
+}
+
+.box-1 {
+  height: 200px;
+  float: left;
+  width: 50%;
+}
+
+.box-2 {
+  height: 200px;
+  float: left;
+  width: 50%;
+}
+
+.box-3 {
+  height: 100px;
+  float: left;
+  width: 33.3%;
+}
+
+.box-4 {
+  height: 100px;
+  float: left;
+  width: 33.3%;
+
+}
+
+.box-5 {
+  height: 100px;
+  float: left;
+  width: 33.3%;
+
+}
+
+.box-6 {
+  height: 100px;
+  float: left;
+  width: 33.3%;
+}
+
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+
+.color-1 {
+  background-color: #dbff9e;
+}
+
+.color-2 {
+  background-color: blue;
+}
+
+.color-3 {
+  background-color: rgba(255, 66, 66, 1);
+}
+
+.color-4 {
+  background-color: yellow;
+}
+
+.color-5 {
+  background-color: green;
+}
