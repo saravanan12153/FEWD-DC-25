@@ -1,0 +1,49 @@
+
+/* Sections */
+
+header {
+  background-color: black;
+}
+
+.container-1 {
+  background-color: gray;
+}
+
+.container-2 {
+  background-image: url("../images/coworking.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+}
+
+.container-3 {
+  background-color: white;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+/* Fonts */
+
+h1 {
+ color: yellow;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+p {
+
+}
+
+a, a:focus {
+  color: #fff;
+}
