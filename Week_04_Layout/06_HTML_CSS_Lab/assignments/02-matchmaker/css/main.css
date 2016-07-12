@@ -1,0 +1,29 @@
+.header-bar {
+	background-color: black;	
+	color: white;
+}
+
+h1 {
+	color: yellow;
+}
+
+.container-1 {
+background-color: gray;
+}
+
+.container-2 {
+background-image: url("../images/coworking.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 400px;
+}
+
+.container-3 {
+background-color: gray;
+}
+
+footer {
+	background-color: black;
+	color: white;
+}
