@@ -1,5 +1,6 @@
 .header-bar {
-	background-color: black;	
+	background-color: black;
+	height: 100px;	
 	color: white;
 }
 
@@ -7,8 +8,31 @@ h1 {
 	color: yellow;
 }
 
+li {
+	display: inline-block;
+	float: right;
+	width: 10%;
+}
+
 .container-1 {
 background-color: gray;
+height: 80px;
+text-align: center;
+}
+
+/* This is the text strikethrough span */
+.brain-1 {
+
+}
+
+/* This is the text underline yellow span */
+.brain-2 {
+
+}
+
+/*This is the opacity box */
+.about {
+	background-color: ;
 }
 
 .container-2 {
