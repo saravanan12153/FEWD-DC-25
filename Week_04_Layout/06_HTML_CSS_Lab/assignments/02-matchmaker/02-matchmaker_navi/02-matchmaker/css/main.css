@@ -1,0 +1,41 @@
+
+
+.top-container {
+	background-color: black;
+	height:100px;
+	width: 100%;
+	padding-top: 10px;
+	border-bottom: 5px solid yellow;
+}
+
+.top-container h1 {
+	color: yellow;
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+	margin: 0px 35px;
+}
+
+ul {
+	color: white;
+	display: inline;
+	font-size: 20px;
+
+}
+.nav-box {
+	float: right;
+}
+li {
+	
+	display: inline;
+	margin-right: 10px;
+}
+
+
+.find-option {
+	font-family: 'Oswald', sans-serif;
+}
+
+.other-option {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}

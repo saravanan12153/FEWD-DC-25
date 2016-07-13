@@ -1,0 +1,215 @@
+/* Stylesheet for Matchmaker website
+Students: Adriana, Andy, Andy, and Gabrielle */
+
+body {
+
+}
+
+
+nav { /* top-container */
+	display: block;
+	background-color: black;
+	height: 100px;
+	width: 100%;
+	min-width: 750px;
+	position: fixed;
+	top: 0;
+	padding: 10px 0;
+	border-bottom: 3px solid hsla(65, 100%, 55%, 1);
+	box-shadow: 1px 1px 1px 1px hsla(0, 0%, 0%, .25);
+}
+
+.logo { /* top-container h1 */
+	color: hsla(65, 100%, 55%, 1);
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+	margin: 5px 0 0 20px;
+}
+
+.navi { /* nav-box */
+	float: right;
+	margin: 5px 30px 0 0;
+}
+	.navi a, .navi a:visited, .navi a:active, .navi a:focus {
+		color: white;
+		text-decoration: none;
+	}
+	.navi a:hover {
+		color: gray;
+	}
+
+	.navi li {	
+		display: inline;
+		margin-left: 15px;
+	}
+
+.naviOswald { /* find-option */
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.naviSourceSansPro { /* other-option */
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.main-container {
+	display: block;
+	width: 100%;
+	min-width: 750px;
+	margin: 120px 0 0 0;
+	min-height: 480px;
+	background: url('../images/coworking.jpg') center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+	.main-container h2 {
+		font-family: 'Merriweather', serif;
+		font-style: italic;
+		font-weight: 700;
+		text-align: center;
+		background-color: hsla(0, 0%, 83%, 1);
+		margin: 0;
+		padding: 20px 0 20px 0;
+	}
+		#gray-taste {
+			text-decoration: line-through;
+			color: hsla(0, 0%, 50%, 1);
+		}
+		#yellow-are {
+			border-bottom-style: solid;
+			border-bottom-color: hsla(65, 100%, 55%, 1);
+		}
+
+.meet-your-match-block {
+	background-color: hsla(0, 0%, 83%, .8);
+/*	opacity: */
+	width: 220px;
+	float: right;
+	padding: 30px;
+	margin: 25px 25px 30px 0;
+	box-shadow: 0 2px hsla(0, 0%, 50%, .5);
+}
+	.meet-your-match-block h3 {
+		font-family: 'Source Sans Pro', sans-serif;
+		background-color: none;
+		font-weight: 700;
+		font-size: 24px;
+		margin: 0 0 10px 0;
+	}
+	.meet-your-match-block p {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 26px;
+		margin: 0;
+	}
+	.meet-your-match-block button {
+		display: block;
+		width: 221px;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		font-size: 19px;
+		text-transform: uppercase;
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		background-color: hsla(65, 100%, 55%, 1);
+		padding: 10px 0;
+		margin-top: 20px;
+		border-radius: 7px;
+		box-shadow: 0 2px hsla(0, 0%, 50%, .5);
+	}
+		.meet-your-match-block a, .meet-your-match-block a:visited, .meet-your-match-block a:active, .meet-your-match-block a:focus {
+			color: black;
+			text-decoration: none;
+		}
+		.meet-your-match-block a:hover {
+			color: white;
+			cursor: pointer;
+		}
+
+.action-container {
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	min-width: 750px;
+	min-height: 200px;
+	margin-bottom: 50px;
+}
+
+.gray-line {
+	border-right: 1px solid hsla(0, 0%, 83%, 1);
+}
+
+.action-box {
+	display: block;
+	float: left;
+	width: 24%;
+	min-width: 175px;
+	padding: 0 4.5%;
+	text-align: left;
+}
+	.action-box h4 {
+		display: block;
+		font-family: 'Merriweather', serif;
+		font-size: 24px;
+		margin: 5px 0;
+	}
+	.action-box p {
+		display: block;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 18px;
+		margin: 10px 0;
+	}
+	.action-box button {
+		display: block;
+		width: 190px;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 700;
+		font-size: 19px;
+		text-transform: uppercase;
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		background-color: hsla(0, 0%, 83%, 1);
+		padding: 10px 10px;
+		margin: 20px auto 0 auto;
+		border-radius: 7px;
+		box-shadow: 0 2px hsla(0, 0%, 50%, .5);
+	}
+		.action-box a, .action-box a:visited, .action-box a:active, .action-box a:focus {
+			color: black;
+			text-decoration: none;
+		}
+		.action-box a:hover {
+			color: white;
+		}
+.gray-btn:hover {
+	background-color: hsla(65, 100%, 55%, 1);
+	cursor: pointer;
+}
+.gray-btn:active {
+	position: relative;
+	top: 2px;
+	box-shadow: 0px 0px white;
+}
+
+footer { /* footer-box */
+	display: block;
+	background-color: black;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	width: 100%;
+	height: 60px;
+/*	margin-top: 30px;*/
+	padding: 5px 0;
+}
+	footer p {
+		margin-left: 30px;
+	}

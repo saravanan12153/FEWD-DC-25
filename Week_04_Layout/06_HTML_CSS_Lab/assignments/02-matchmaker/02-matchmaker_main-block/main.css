@@ -1,0 +1,81 @@
+body, html {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.main-container {
+	width: 100%;
+	margin: 0;
+	/*height:;*/
+	background: url('https://github.com/ga-students/FEWD-DC-25/blob/master/Week_04_Layout/06_HTML_CSS_Lab/assignments/02-matchmaker/images/coworking.jpg?raw=true') no-repeat center center fixed;
+	height: 640px;
+}
+
+h1 {
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-weight: 700;
+	background-color: hsla(215, 4%, 70%, 1);
+	padding: 20px 0 20px 0;
+	margin: 0;
+	text-align: center;
+	border-top-style: solid;
+	border-top-color: yellow;
+	border-top-width: 3px;
+}
+
+#gray-taste {
+	text-decoration: line-through;
+	color: hsla(215, 4%, 42%, 1);
+}
+
+#yellow-are {
+	border-bottom-style: solid;
+	border-bottom-color: yellow;
+}
+
+.meet-your-match-block {
+	background-color: hsla(215, 4%, 90%, .8);
+	width: 200px;
+	float: right;
+	padding: 20px;
+	/*box-shadow*/
+	margin-right: 20px;
+	margin-top: 20px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+h2 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	margin: 0;
+}
+
+p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	background-color: yellow;
+	padding: 7px 30px;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+

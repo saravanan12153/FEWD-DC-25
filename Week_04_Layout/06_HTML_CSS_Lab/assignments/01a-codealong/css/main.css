@@ -1,0 +1,60 @@
+/* stylesheet for 01a Code Along, Lesson 6*/
+
+.font-container {
+  min-width: 200px;
+  width: 80%;
+  margin: 5% 10%;
+}
+
+h1 {
+  text-align: center;
+  margin: 35px 0;
+  text-decoration: underline;
+}
+  h1:after{
+    content: " This is extra content using the :after pseudo selector";
+    background-color: yellow;
+  }
+
+p {
+  font-size: 18px;
+}
+  p:first-letter {
+    font-size: 200%;
+    font-weight: bold;
+  }
+
+
+.system-font {
+  font-family: "Courier New", serif;
+  color: blue;
+  line-height: 23px;
+}
+
+.google-font1 {
+  font-family: "Bangers", cursive;
+  color: green;
+  line-height: 22px;
+}
+
+.google-font2 {
+  font-family: "Shadows Into Light", cursive;
+  color: purple;
+  line-height: 24px;
+}
+
+  p:last-child {
+    text-decoration: underline;
+  }
+
+a, a:visited, a:focus, a:active {
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  padding: 5px;
+  font-style: italic;
+  font-family: cursive; 
+}
+  a:hover {
+    color: limegreen;
+  }
