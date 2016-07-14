@@ -112,11 +112,7 @@ h1 {
   font-size: 36px; /*font size and style not specified*/
   color: hsla(0, 3%, 94%, 1); /*background color*/
   width: 300px;
-  margin: 10px 20px 0 20px;
-}
-
-.textdiv {
-  max-width: 960px;
+  margin: 10px 20px 0 12%;
 }
 
 nav {
@@ -138,12 +134,13 @@ nav a, nav a:active, nav a:focus, nav a:visited {
   }
   nav ul {
     list-style: none;
+    width: 530px;
   }
   nav li {
     display: inline-block;
   }
     nav li:last-of-type {
-      margin-right: 20px;
+      margin-right: 12%;
     }
 
 .left-container {
@@ -248,7 +245,7 @@ nav a, nav a:active, nav a:focus, nav a:visited {
   .block a, .block a:active, .block a:focus, .block a:visited {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 22px;
     color: hsla(201, 92%, 15%, 1); /*dark blue*/
     text-decoration: none;
   }
@@ -272,17 +269,18 @@ nav a, nav a:active, nav a:focus, nav a:visited {
     border-radius: 5px;
     padding: 5px 40px;
   }
-  .yellow-container a, .yellow-container a:active, .yellow-container a:focus, .yellow-container a:visited {
+  .yellow-container button, .yellow-container button:active, .yellow-container button:focus, .yellow-container button:visited {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 20px; /*font size and style not specified*/
     text-decoration: none;
     color: hsla(0, 3%, 94%, 1); /*background color*/
 }
-  .yellow-container a:hover {
+  .yellow-container button:hover {
     color: hsla(180, 1%, 38%, 1); /*light grey*/
   }
 
+/*code for attempt 1 for the popup*/
 .popup {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;

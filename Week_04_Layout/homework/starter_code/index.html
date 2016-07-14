@@ -23,7 +23,6 @@ Developer @GA in DC -->
 
 	<body>
 			<header>
-			<div class="testdiv">
 				<h1>Relaxr</h1>
 				<nav>
 					<ul>
@@ -34,7 +33,6 @@ Developer @GA in DC -->
 						<li><a href="#">Blog</a></li>
 					</ul>
 				</nav>
-			</div>
 			</header>
 
 			<section class="clearfix">
@@ -81,14 +79,16 @@ Developer @GA in DC -->
 
 			<footer>
 				<div class="yellow-container">
-				<!-- popup window -->
- 					<script type="text/javascript">
+<!-- attempt 1 - for popup window
+  					<script type="text/javascript">
 						function newPopup(url) {
 							popupWindow = window.open(
 								url,'popUpWindow','height=360,width=400,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
 						}
-					</script> 
-					<button><a href="JavaScript:newPopup('popup.html')";>Sign Up Now!</a></button>
+					</script>  -->
+
+<!-- attempt 3 - for popup window -->
+					<button onclick="myFunction()"><!-- <a href="JavaScript:newPopup('popup.html')";> -->Sign Up Now!<!-- </a> --></button>
 				</div>
 
 				<h4>Relaxr</h4>
@@ -96,5 +96,20 @@ Developer @GA in DC -->
 				<img src="images/facebook.png" alt="Facebook" />
 				<p>Copyright 2015. Relaxr.</p>
 			</footer> <!-- yellow-container -->
+
+<!--attempt 2 - for popup window, Caitlin		||		Javascript
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.js">
+			</script> <!-- linking jquery ->
+			<script>
+				$("button").on("click",function(){
+					alert("We're Not Ready for Sign-Ups...Yet.")
+				})
+			</script> -->
+<!-- attempt 3 for popup window -->
+			<script>
+				function myFunction() {
+				   alert("We're Not Ready For Sign-Ups...Yet.");
+				}
+			</script>
 	</body>
 </html>

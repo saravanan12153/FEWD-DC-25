@@ -5,7 +5,6 @@ body {
 
 }
 
-
 nav { /* top-container */
 	display: block;
 	background-color: black;
@@ -35,7 +34,7 @@ nav { /* top-container */
 		text-decoration: none;
 	}
 	.navi a:hover {
-		color: gray;
+		color: hsla(65, 100%, 55%, 1);
 	}
 
 	.navi li {	
@@ -86,7 +85,6 @@ nav { /* top-container */
 
 .meet-your-match-block {
 	background-color: hsla(0, 0%, 83%, .8);
-/*	opacity: */
 	width: 220px;
 	float: right;
 	padding: 30px;
@@ -135,15 +133,12 @@ nav { /* top-container */
 .action-container {
 	display: block;
 	width: 100%;
-	padding: 20px 0;
+	padding: 20px 0 0 0;
 	text-align: center;
 	min-width: 750px;
-	min-height: 200px;
-	margin-bottom: 50px;
-}
-
-.gray-line {
-	border-right: 1px solid hsla(0, 0%, 83%, 1);
+	/*min-height: 200px; - not working, so we set a static height*/
+	height: 250px;
+	margin-bottom: 20px;
 }
 
 .action-box {
@@ -153,6 +148,11 @@ nav { /* top-container */
 	min-width: 175px;
 	padding: 0 4.5%;
 	text-align: left;
+	height: 100%;
+}
+
+.gray-line {
+	border-right: 1px solid hsla(0, 0%, 83%, 1);
 }
 	.action-box h4 {
 		display: block;
@@ -207,7 +207,6 @@ footer { /* footer-box */
 	font-size: 18px;
 	width: 100%;
 	height: 60px;
-/*	margin-top: 30px;*/
 	padding: 5px 0;
 }
 	footer p {
