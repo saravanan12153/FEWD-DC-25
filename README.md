@@ -1,4 +1,4 @@
-![GeneralAssemb.ly](img/icons/ga.png)
+![GeneralAssemb.ly](http://static-assets.generalassemb.ly/logos/generalassembly-open-graph.png)
 
 # FEWD25 Course Repository
 Welcome to Front-End Web Development (FEWD) at General Assembly! This is where we will be hosting all class slides, assignments, starter code, and more.
@@ -12,7 +12,7 @@ Slack is channel based; if you have questions that would benefit everyone, ask t
 During this course, there are a number of tools you will be expected to have and others we think you'll want to have. Have a look:
 
 ### Required Tools
-* [Slack](https://slack.com/downloads) - Desktop application for our class chatroom (please disable audio notifications!).
+* [Slack](https://slack.com/downloads) - Desktop application for our class chatroom (**please disable audio notifications!**).
 * [Sublime Text](http://www.sublimetext.com/3) - Text editor with syntax highlighting and autocompletion.
 * [Github Desktop](https://desktop.github.com/) - Desktop application for Github.
 * [Chrome Browser](https://www.google.com/chrome/browser/desktop/) - Default browser for the class.
@@ -20,7 +20,7 @@ During this course, there are a number of tools you will be expected to have and
 ### Recommended Tools
 * [Codepen](https://codepen.io) - Do front-end development in the browser! We'll also be showing you many live examples in Codepen so it would be good to at least familiarize yourself with it if you don't plan on signing up.
 * [Dashlane](https://dashlane.com) - My favorite password management tool. Get used to saving passwords if you want to be a professional front-end dev.
-* [Trello](https://trell0.com) - The best task management tool on the internet. This would be a great way for you to organize your final project.
+* [Trello](https://trello.com) - The best task management tool on the internet. This would be a great way for you to organize your final project.
 
 ### Resources
 * [Mozilla Developer Network](https://developer.mozilla.org/en-US/) - Web Platform documentation.
@@ -38,6 +38,9 @@ John is a displaced Texan who's been up in the national capital leading large-sc
 
 ### Caitlin Daitch (TA)
 Caitlin Daitch is currently a Front-End Web Developer at Fundrise in Dupont Circle. She was formerly a Digital Producer/Project Manager at a local digital agency and decided to switch careers after taking FEWD15. She graduated from General Assembly's Web Development Immersive program in April and is now a full-time web developer. Fun fact: her former FEWD instructor is now her boss at Fundrise!
+
+### Erica Irving (TA)
+Erica Irving is a Front-End Web Developer at The Washington Post. She graduated from General Assembly's Web Development Immersive program in September 2015, then worked at GA as a developer-in-residence for the October-January cohort. 
 
 ### Tim Foley (Course Producer)
 As your Course Producer, it's Tim's job to make sure that you (and your instructors) have everything you need for a successful experience in FEWD. **If you've got a question, and you're not sure who to ask, start with Tim!**
