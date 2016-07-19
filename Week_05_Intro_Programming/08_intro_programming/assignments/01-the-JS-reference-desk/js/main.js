@@ -188,3 +188,31 @@ console.log(Chinatown); // output True
 // alert throw super annoying pop-ups in front of you
 // Again, super crude method to see your JS output, only useful for testing
 alert("How annoying is this box popping up? Amiright?");
+
+
+// PRACTICE
+//Make 10 variables: 4 strings, 4 numbers, 1 null, 1 boolean
+var firstName = "Andy";
+var lastName = "Aronoff";
+var dogName = "Teddy";
+var emotion = " loves his dog, ";
+var birthMonth = 03;
+var birthDay = 14;
+var birthYear = 1987;
+var favoriteNum = 14;
+var favoriteTeam = null;
+var filledOut = true;
+
+document.write("   <br><br>PRACTICE document write:");
+document.write(100*10); //adds to end of page as numbers
+console.log(90/9);
+console.log(87-58);
+console.log(1230+2139);
+document.write("<br>" + birthMonth + "/" + birthDay + "/" + birthYear);
+console.log(birthDay*birthYear);
+
+function sentences (firstName, lastName, dogName, emotion) {
+  alert(firstName + emotion + dogName);
+  console.log(firstName + " " + lastName);
+}
+sentences (firstName, lastName, dogName, emotion);
