@@ -13,8 +13,8 @@
  * We've started you off, replace the sec
  */
  
-	function question1(){
-		$("replaceMe").css("replaceMe", "replaceMe");
+	function question1() {
+		$("replaceMe").css("<p>", "color:blue");
 	}
 
 	$("#button1").click(question1);
