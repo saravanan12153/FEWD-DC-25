@@ -121,3 +121,15 @@ body {
   font-family: 'League Gothic', Arial, sans-serif;
   font-size: 50px;
 }
+
+.menu-list li {
+  display: inline;
+}
+
+.menu-list li:after {
+  content: " | ";
+}
+
+.menu-list li:last-child:after {
+  content: "";
+}
