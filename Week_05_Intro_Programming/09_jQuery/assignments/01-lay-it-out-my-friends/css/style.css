@@ -57,16 +57,41 @@ body {
 
 /* Center the container */
 #container {
+  background-color: grey;
   width: 960px;
   margin: auto;
 }
 
 header {
-
+  background-color: green;
+  color:;
+  width: 100%;
 }
 
 footer {
+  background-color: green;
+  width: 100%;
+}
 
+.leftcontainer {
+  background-color: green;
+  width: 48%;
+  float: left;
+  margin: 1% 1% 1% 0;
+}
+
+.rightcontainer {
+  background-color: green;
+  width: 48%;
+  float: left;
+  margin: 1% 0 1% 1%;
+}
+
+.threerow {
+  background-color: green;
+  width: 25%;
+  float: left;
+  margin: 1% 1% 1% 1%;
 }
 
 /******************************************

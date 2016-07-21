@@ -12,9 +12,25 @@
  * When, button 1 is clicked, select all paragraphs on the page with jQuery, and changed the color to blue.
  * We've started you off, replace the sec
  */
- 
+
+ // 	function question1(){
+	// 	$("replaceMe").css("replaceMe", "replaceMe");
+	// }
+
+	// $("#button1").click(question1);
+ 	
+ 	var action = 1
+
 	function question1() {
-		$("replaceMe").css("<p>", "color:blue");
+		if (action == 1) {    //first click
+			$("p").css("color", "blue");
+			$("p").css("font-family", "");
+			action = 2;
+		} else {              //second click
+			$("p").css("color", "blue");
+			$("p").css("font-family", "");
+			$(".city").attr("src", ""); //does not reset for a picture...
+		}
 	}
 
 	$("#button1").click(question1);
@@ -30,6 +46,12 @@
 
 	// $("#button1").click(question2);
 
+	function question2(){
+		$("h2").html("Andy Aronoff");
+	}
+
+	$("#button1").click(question2);
+
 /**
  * Question 3:
  * When button 1 is clicked, select the ordered list item that has the class "falseFact". 
@@ -42,6 +64,13 @@
 
 	// $("#button1").click(question3);
 
+	function question3(){
+		$("li.falseFact").html("True Fact");
+		$("li.falseFact").css("text-decoration", "underline");
+	}
+
+	$("#button1").click(question3);
+
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
 /**
@@ -49,6 +78,13 @@
  * When button 2 is clicked, change the background color of the whole page to "pink"
  */
 
+// no code
+
+	function question4(){
+		$("body").css("background-color", "pink");
+	}
+
+	$("#button2").click(question4);
 
 
 /**
@@ -56,12 +92,28 @@
  * When button 2 is clicked, change the color of all h2's to "green"
  */
 
+ //no code
+
+	function question5(){
+		$("h2").css("color", "limegreen");
+	}
+
+	$("#button2").click(question5);
 
 
 /**
  * Question 6:
  * When button 2 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
  */
+
+//no code
+
+	function question6(){
+		$("blockquote").html("<span>no quote</span>");
+		$("blockquote").css("color", "red");
+	}
+
+	$("#button2").click(question6);
 
 
 //SECTION 3: This section is more difficult. Try your hand at the next 3 questions.
@@ -71,12 +123,29 @@
  * When button 3 is clicked, change the text in the header's h1 tag to read "jQuery Ninja"
  */
 
+ //no code
+
+ 	function question7(){
+		$("header h1").html("jQuery Ninja");
+	}
+
+	$("#button3").click(question7);
+
 
 /**
  * Question 8:
  * Have the following code execute when button 3 is clicked. Write a JavaScript comment with a description of what happened. 
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
+
+//no code
+
+	function question8(){
+		 $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+		 console.log("the picture changed");
+	}
+
+	$("#button3").click(question8);
 
 
 /**
@@ -85,7 +154,21 @@
  * Bonus: Try to do this with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"});
  */
 
+//no code
 
+	// function question9(){    --not all in one line--
+	// 	$("p").css("color", "purple");
+	// 	$("p").css("font-family", "Georgia");
+	// }
+
+	// $("#button3").click(question9);
+
+	function question9(){
+		$("p").css({"color":"purple", "font-family":"Georgia"}); //add BRACES around multiple attribute changes
+		// $("p").css({color:"purple", font-family:"Georgia"}); --it needs the quote marks around both the ATTRIBUTE and the VALUE--
+	}
+
+	$("#button3").click(question9);
 
 
 
