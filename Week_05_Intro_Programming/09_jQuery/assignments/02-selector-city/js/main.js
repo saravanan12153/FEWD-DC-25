@@ -29,7 +29,7 @@ console.log(exampleOne);
 
 // Overwrite HTML contents in an ID
 // Note that I can include HTML tags right in there
-$("#redacted-funny-bone").html('<span>How many coders does it take to screw in a light bulb?</span>');
+$("#redacted-funny-bone").html('<span>Darryl wants to know if this works. Of course it does.</span>');
 
 // Select text content from inside an HTML element
 var exampleTwo = $("#funny-bone-again").text();

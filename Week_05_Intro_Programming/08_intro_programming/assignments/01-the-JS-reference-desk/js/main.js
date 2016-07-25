@@ -40,13 +40,15 @@ console.log(VeggieSalad); //will print "eggplant lettuce"
 // ##################################################################
 
 // Five types of variables are always primative variables - stored in the quick memory stack
-var grunge = "Alice in Chains"; // string
-var revolutionary = 1776; 		// number
-var coinToss = true; 			// boolean
+var coinToss = "Alice in Chains"; // string
+var coinToss = 1776; 		// number
+
+console.log(typeof coinToss);
 
 // Null and undefined are basically the same: both just hold a meaningless value in a variable
 var feelingPostBreakUp = null; 	// null
-var goodIndoorPlant; 			// undefined
+var goodIndoorPlant = "Now it's defined"; 			// undefined
+console.log(goodIndoorPlant);
 
 // You can call 'typeof' to get the variable type
 var WWIIDate = 1942;
@@ -134,10 +136,11 @@ var meaningOfLife = String(null); 				// returns 'null' - null and undefined var
 // Super basic function
 // Ouytput variable by calling function
 // Beginner mistake is not calling the function.
+
 var Monday = "Apple a day on Mondays people, don\'t forget."
 
 function fruitOfTheDay() {
-  console.log(Monday);
+  // console.log(Monday);
 }
 fruitOfTheDay();
 
@@ -167,7 +170,10 @@ function kittyHawk(firstFlight) {
     console.log("Let us dream...");
   }
 }
-kittyHawk(1900);
+
+kittyHawk(1909);
+
+
 
 // #######################################################################
 // ######################## Output to the Browser ########################
