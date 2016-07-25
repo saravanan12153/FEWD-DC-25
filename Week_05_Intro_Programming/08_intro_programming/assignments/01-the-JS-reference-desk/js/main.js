@@ -196,6 +196,7 @@ console.log(Chinatown); // output True
 // Again, super crude method to see your JS output, only useful for testing
 alert("How annoying is this box popping up? Amiright?");
 
+<<<<<<< Updated upstream
 console.log(100*10);
 
 var hillaryClinton = 45;
@@ -209,3 +210,44 @@ function crankyAyana () {
   console.log(tiredAyana + " and " + sadAyana);
 }
 crankyAyana();
+=======
+// Now, it's your turn, 
+//Make 10 variables: 4 strings, 4 numbers, 1 null, 1 Boolean - experiment with them 
+//Calculate and output: 
+     //Product of 100 and 10
+     //Quotient of 90 and 9
+     //Difference of 87 and 58
+     //Sum of 1230 and 2139
+     //Make your name out of two variables
+//Create function that outputs at least 2 of the variables you made.
+var debbyDowner = "Ryan ";
+var jackRabbit = "Hoesing";
+var terribleTwo = "The age of my cat";
+var mistyMan = "We made a mistake!";
+
+var barrackObama = 44;
+var georgeWashington = 1;
+var abrahamLincoln = 16;
+var hillaryClinton = 45;
+
+var donaldTrump = null;
+
+var brexit = false;
+
+console.log ((hillaryClinton*2 + georgeWashington*10) + (georgeWashington*10));
+console.log ((hillaryClinton*2) / (georgeWashington*9));
+console.log (87-58);
+console.log (1230+2139);
+console.log (debbyDowner + jackRabbit);
+
+function whoThat(donaldTrump) {
+  if (donaldTrump >= 45) {
+    console.log(terribleTwo);
+  }
+  else {
+    console.log(mistyMan);
+  }
+}
+whoThat(44);
+
+>>>>>>> Stashed changes
