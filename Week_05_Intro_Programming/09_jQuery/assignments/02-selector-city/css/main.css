@@ -3,7 +3,11 @@ body {
 }
 
 h1 {
-  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+h2 {
+  padding-top: 40px;
 }
 
 div {
@@ -14,7 +18,31 @@ div {
   cursor: pointer;
 }
 
-// Applied only by JS/jQuery
+#css-example-03 {
+  display: none;
+}
+
+#slide-up-target, #slide-down-target, #slide-toggle-target {
+  background-color: blue;
+  color: white;
+}
+
+#slide-down-target {
+  display: none;
+}
+
+/* Applied only by JS/jQuery */
 .red {
-  color: red;
+  color: white;
+  background-color: red;
+}
+
+.orange {
+  color: black;
+  background-color: orange;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
 }
