@@ -35,3 +35,15 @@ body {
   margin: 25px auto;
   transition: background 500ms;
 }
+
+.redLight {
+  background-color: red;
+}
+
+.yellowLight {
+  background-color: yellow;
+}
+
+.greenLight {
+  background-color: limegreen;
+}

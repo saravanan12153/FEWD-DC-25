@@ -100,10 +100,14 @@ $("#click-trial-02").click(function(){
 // ######################## Hover Event ########################
 // #############################################################
 // Exactly like a click event in every way, except I usually hover and add class to same ID
-$("#hover-appear-red-03").hover(function(){
-  $("#hover-appear-red-03").addClass("red");
-});
 
+$(document).ready(function() { //added
+
+  $("#hover-appear-red-03").hover(function(){
+    $("#hover-appear-red-03").addClass("red");
+  });
+
+}); //added
 
 // ##############################################################
 // ######################## .toggleClass ########################
