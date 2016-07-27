@@ -13,7 +13,11 @@ var color = "blue", daysinaweek = "7";
 
 // Variables can type switch, but you DONT WANT TO DO THIS
 var color = "blue";
+<<<<<<< HEAD
 var color = 17;
+=======
+color = 17;
+>>>>>>> master
 
 // Variables must start with a letter, underscore (_) or dollar sign ($) - any alphanumerics are OK after that.
 var vegetable = "eggplant";
@@ -69,6 +73,7 @@ var bigAssNumber = 3.175e8; 	// basically 3.175 x 10^8
 
 var greetings = "Ahola!"; // string can contain a whole mix of stuff
 var architecturalStyle = 'Art Deco'; // use single quotes, they work and no one will give a shit
+var goodQuestion = "37";
 
 // Escaping stuff is still pretty laborious ( \n = new line, \t = tab, \' = single quote \" = double quote)
 var declarationOfIndependence = "\"We hold these truths to be self-evident, that all men are created equal, \n that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.\""
@@ -189,6 +194,7 @@ console.log(Chinatown); // output True
 // Again, super crude method to see your JS output, only useful for testing
 alert("How annoying is this box popping up? Amiright?");
 
+<<<<<<< HEAD
 
 
 var variable1 = 10;
@@ -215,3 +221,18 @@ console.log(90 / 9)
 alert("No idea how to get this to pop up");
 
 
+=======
+console.log(100*10);
+
+var hillaryClinton = 45;
+var georgeWashington = 1;
+console.log((hillaryClinton * 2)/(georgeWashington * 9));
+
+var tiredAyana = "Sleep till noon";
+var sadAyana = "Cry till noon";
+
+function crankyAyana () {
+  console.log(tiredAyana + " and " + sadAyana);
+}
+crankyAyana();
+>>>>>>> master
