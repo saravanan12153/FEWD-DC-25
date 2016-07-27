@@ -61,14 +61,33 @@ body {
   margin: auto;
 }
 
+<<<<<<< HEAD
 .alpha {
 width: 100%;
 height: 300px;
 background-color: blue;
 margin: 5px;
+=======
+<<<<<<< HEAD
+header {
+  background-color: black;
+  border: 5px;
+  border-color: gray;
+  width: 100%;
+  height: 150px;
+  float:left;
+}
+>>>>>>> master
 
+.left{
+  background-color: lightgray;
+  border: 10px;
+  width: 60%;
+  height: 400px;
+  float: left;
 }
 
+<<<<<<< HEAD
 .body {
 height: 800px;
 width: 100%;
@@ -96,12 +115,25 @@ background-color: blue;
 margin: 5px;
 width: 100%;
 height: 200px;
+=======
+.right{
+  background-color: yellow;
+  border: 10px;
+  width: 40%;
+  height: 400px;
+  float: left;
 }
 
+footer {
+    background-color: blue;
+    width: 100%;
+    height: 150px;
+    float: left;
+>>>>>>> master
+}
+
+=======
+>>>>>>> origin/master
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
