@@ -47,7 +47,14 @@ $("#redacted-funny-bone-again").text('How many coders does it take to screw in a
 // ########################################################
 
 // This applies css to a selector in the format of ("property", "value")
-$(".green-sunglasses").css("color", "limegreen");
+$(".green-sunglasses").css({
+  "color": "limegreen",
+  "font-size": "50px"
+});
+
+
+
+
 
 
 // ###################################################################
@@ -64,7 +71,7 @@ $("#css-example-03").show();
 // ##############################################################################
 
 // Easy implementation - just put the class you want to remove inside of quotes in the method parenthesis
-$("#orange-target").addClass("orange");
+$("#orange-target").addClass("aquamarine");
 $("#blue-target").removeClass("blue");
 
 
@@ -103,10 +110,13 @@ $("#click-trial-02").click(function(){
 // ######################## Hover Event ########################
 // #############################################################
 // Exactly like a click event in every way, except I usually hover and add class to same ID
+$(document).ready(function() {
+
+});
+
 $("#hover-appear-red-03").hover(function(){
   $("#hover-appear-red-03").addClass("red");
 });
-
 
 // ##############################################################
 // ######################## .toggleClass ########################
