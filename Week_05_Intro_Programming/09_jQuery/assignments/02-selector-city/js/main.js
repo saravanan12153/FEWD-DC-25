@@ -35,6 +35,9 @@ $("#redacted-funny-bone").html('<span>Darryl wants to know if this works. Of cou
 var exampleTwo = $("#funny-bone-again").text();
 console.log(exampleTwo);
 
+var exampleTen = $("#there-is-hope").text();
+console.log(exampleTen);
+
 // Overwrite HTML contents in an ID
 // Note that I can include HTML tags right in there
 $("#redacted-funny-bone-again").text('How many coders does it take to screw in a light bulb?');
