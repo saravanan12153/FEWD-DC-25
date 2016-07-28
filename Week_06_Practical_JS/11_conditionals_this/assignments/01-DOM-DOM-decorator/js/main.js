@@ -102,3 +102,27 @@ function addThings(val1, val2) {
 }
 var newNumber = addThings(1414, 8908098);
 console.log(newNumber);
+
+////////////// DOM DOM traversal assignemnt 7.27.2016 ////////////////////
+// Red border around .author-name
+// Orange border around .author-related-news-container
+// Hide each image on the page
+// Make each H2 have a pink background with padding
+// Make each H3 have a green background with white text
+$(document).ready(function() {
+
+// $(".author-name").css("border", "1px solid red");
+$(".author-info-container").prev().css("border", "2px solid red");
+$(".author-related-news-title").next().css("border", "2px solid orange");
+// $("img").hide();
+$(document).find("img").hide();
+$(document).find("h2").css({
+    "background-color": "pink",
+    "padding": "10px",
+});
+$(document).find("h3").css({
+    "background-color": "limegreen",
+    "color": "white",
+});
+
+}); //close document.ready
