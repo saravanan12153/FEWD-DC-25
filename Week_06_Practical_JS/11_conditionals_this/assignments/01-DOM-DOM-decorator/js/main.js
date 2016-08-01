@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 $(".author-content").children().css({
   "border": "1px solid red"
 })
@@ -20,6 +21,8 @@ $(".author-related-news-image").parent().css({
 
 =======
 
+=======
+>>>>>>> master
 //#### 1. Border around author's name ####//
     $(".author-name").css({"border": "red 14px solid"});
 
@@ -36,6 +39,7 @@ $(".author-related-news-image").parent().css({
     $("h3").css({"background-color": "green",
         "color":"white"
         });
+<<<<<<< HEAD
 
         //####wrong assignment below####//
 >>>>>>> master
@@ -143,3 +147,5 @@ function addThings(val1, val2) {
 }
 var newNumber = addThings(1414, 8908098);
 console.log(newNumber);
+=======
+>>>>>>> master

@@ -1,4 +1,0 @@
-GOAL:
-Write a website that converts F to C and vice versa
-
-Pseudocode:
