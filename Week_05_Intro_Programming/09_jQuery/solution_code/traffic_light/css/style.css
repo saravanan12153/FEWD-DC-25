@@ -36,16 +36,17 @@ body {
   transition: background 500ms;
 }
 
-.red{
-  
+.red {
   background-color: red;
- 
+  transition: 1s;
 }
 
-.yellow{
+.yellow {
   background-color: yellow;
+  transition: 1s;
 }
 
-.green{
+.green {
   background-color: green;
+  transition: 1s;
 }

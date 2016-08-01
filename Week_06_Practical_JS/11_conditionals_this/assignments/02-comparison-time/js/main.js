@@ -51,6 +51,7 @@ if (daysInAWeek <= blackJack) {
 }
 
 // 4- Another integer comparison, using else if
+
 daysInAWeek = 27;
 if (blackJack <= daysInAWeek) {
   $("#blackjack-container").html("<img src=\"http://www.clipartbest.com/cliparts/Kin/oyR/KinoyRpiq.jpeg\">");
@@ -81,6 +82,20 @@ if (octopusLegs !== maxVolumeLevel) {
 } else if (octopusLegs === maxVolumeLevel) {
   checkVal = true;
 }
+=======
+
+// 5- Setting a Boolean based on variable values
+// Note the program flow here, this is getting more advanced
+var octopusLegs = 8, maxVolumeLevel = 45;
+var checkVal = null;
+console.log(checkVal);
+
+if (octopusLegs !== maxVolumeLevel) {
+  checkVal = true;
+} else if (octopusLegs === maxVolumeLevel) {
+  checkVal = false;
+}
+console.log(checkVal);
 
 function calamari () {
   if (checkVal === true) {
@@ -98,11 +113,11 @@ calamari();
 
 // 1- val() use to get value from input field
 var inputValue = $( "#input-set-placeholder-value" ).val();
+console.log ("inputValue");
 function setValueInHTML () {
   $("#input-value-output").html(inputValue);
 }
 setValueInHTML();
-
 // 2- Think about using .val() constructively with forms
 // What does `this` represent when used in this function?
 // Why didn't I have to call this function?
