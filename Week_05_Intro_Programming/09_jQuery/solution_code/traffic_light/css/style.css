@@ -36,29 +36,17 @@ body {
   transition: background 500ms;
 }
 
-<<<<<<< HEAD
-.redLight {
+.red {
   background-color: red;
+  transition: 1s;
 }
 
-.yellowLight {
+.yellow {
   background-color: yellow;
+  transition: 1s;
 }
 
-.greenLight {
-  background-color: limegreen;
-=======
-.red{
-  
-  background-color: red;
- 
-}
-
-.yellow{
-  background-color: yellow;
-}
-
-.green{
+.green {
   background-color: green;
->>>>>>> refs/remotes/origin/master
+  transition: 1s;
 }

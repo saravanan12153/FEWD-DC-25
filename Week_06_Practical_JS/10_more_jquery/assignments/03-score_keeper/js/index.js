@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
 
+<<<<<<< HEAD
 var value = 0;
 
 $("#zero").click( function() {
@@ -29,3 +30,18 @@ $("#sub1").click( function() {
 });
 
 }); //closing document.ready()
+=======
+	$("#stopButton").click(function( ){
+		$('#stopLight').toggleClass('red');
+	});
+
+	$("#slowButton").click(function( ){
+		$('#slowLight').toggleClass('yellow');
+	});
+
+	$("#goButton").click(function(){
+		$('#goLight').toggleClass('green');
+	});
+
+}); //close document.ready
+>>>>>>> refs/remotes/origin/master

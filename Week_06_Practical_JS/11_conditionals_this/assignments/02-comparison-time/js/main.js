@@ -51,19 +51,30 @@ if (daysInAWeek <= blackJack) {
 }
 
 // 4- Another integer comparison, using else if
-var blackJack = 21, daysInAWeek = 7;
 if (blackJack <= daysInAWeek) {
-  // false, blackJack is not less than or equal to daysInAWeek
+  $("#blackjack-container").html("<img src=\"http://www.clipartbest.com/cliparts/Kin/oyR/KinoyRpiq.jpeg\">");
+  $("#blackjack-container img").css({
+    "height": "300px",
+    "width": "300px"
+  });
 } else if (blackJack >= daysInAWeek) {
   $("#blackjack-container").html("<img src=\"http://blackjacklife.com/wp-content/uploads/2012/01/blackjack-picture-1.jpg\">");
 }
 
+
 // 5- Setting a Boolean based on variable values
 // Note the program flow here, this is getting more advanced
 var octopusLegs = 8, maxVolumeLevel = 45;
+var checkVal = null;
+console.log(checkVal);
+
 if (octopusLegs !== maxVolumeLevel) {
-  var checkVal = true;
+  checkVal = true;
+} else if (octopusLegs === maxVolumeLevel) {
+  checkVal = false;
 }
+console.log(checkVal);
+
 function calamari () {
   if (checkVal === true) {
     $(".box-example-1").css({
@@ -80,11 +91,11 @@ calamari();
 
 // 1- val() use to get value from input field
 var inputValue = $( "#input-set-placeholder-value" ).val();
+console.log ("inputValue");
 function setValueInHTML () {
   $("#input-value-output").html(inputValue);
 }
 setValueInHTML();
-
 // 2- Think about using .val() constructively with forms
 // What does `this` represent when used in this function?
 // Why didn't I have to call this function?

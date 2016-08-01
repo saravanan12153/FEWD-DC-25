@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Project Name: Week_06, Practical_JS, Homework
 // Client: CitiPix
 // Author: Andy Aronoff
@@ -70,3 +71,8 @@ $("#submit-btn").click(function() {
 // created an else{} for errors
 
 }); //close document.ready
+=======
+if ("city-type" === NYC){
+  $("body").css(.)
+}
+>>>>>>> refs/remotes/origin/master

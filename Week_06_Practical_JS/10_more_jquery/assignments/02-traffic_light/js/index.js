@@ -2,6 +2,7 @@
 
 $(document).ready(function() {
 
+<<<<<<< HEAD
 $("#stopButton").click(function() {
   $("#stopLight").toggleClass("redLight");
   console.log("red");
@@ -28,3 +29,18 @@ $("#goButton").click(function() {
 
 
 }); //closing document.ready()
+=======
+	$("#stopButton").click(function( ){
+		$('#stopLight').toggleClass('red');
+	});
+
+	$("#slowButton").click(function( ){
+		$('#slowLight').toggleClass('yellow');
+	});
+
+	$("#goButton").click(function(){
+		$('#goLight').toggleClass('green');
+	});
+
+}); //close document.ready
+>>>>>>> refs/remotes/origin/master
