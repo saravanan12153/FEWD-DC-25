@@ -51,19 +51,37 @@ if (daysInAWeek <= blackJack) {
 }
 
 // 4- Another integer comparison, using else if
-var blackJack = 21, daysInAWeek = 7;
+daysInAWeek = 27;
 if (blackJack <= daysInAWeek) {
-  // false, blackJack is not less than or equal to daysInAWeek
+  $("#blackjack-container").html("<img src=\"http://www.clipartbest.com/cliparts/Kin/oyR/KinoyRpiq.jpeg\">");
+  $("#blackjack-container img").css({
+    "height": "300px",
+    "width": "300px"
+  });
 } else if (blackJack >= daysInAWeek) {
   $("#blackjack-container").html("<img src=\"http://blackjacklife.com/wp-content/uploads/2012/01/blackjack-picture-1.jpg\">");
 }
 
+// Data types
+// All of them are objects!!!!
+var bigNumber = 32094830948; //integer
+var bigWord = "Delicious dinner awaits me at home, I think"; //string
+var trueOrNot = false; // Boolean
+var donaldTrumpsBrain = null; // null
+var newConceptSorta = function whaaaaat(){}; // function
+console.log(newConceptSorta);
+
 // 5- Setting a Boolean based on variable values
 // Note the program flow here, this is getting more advanced
-var octopusLegs = 8, maxVolumeLevel = 45;
+var octopusLegs = 8, maxVolumeLevel = 8;
+var checkVal;
+
 if (octopusLegs !== maxVolumeLevel) {
-  var checkVal = true;
+  checkVal = false;
+} else if (octopusLegs === maxVolumeLevel) {
+  checkVal = true;
 }
+
 function calamari () {
   if (checkVal === true) {
     $(".box-example-1").css({
@@ -88,17 +106,13 @@ setValueInHTML();
 // 2- Think about using .val() constructively with forms
 // What does `this` represent when used in this function?
 // Why didn't I have to call this function?
-$( "button" ).click(function() {
-  var text = $( this ).text();
-  $( "#input-destination" ).val( text );
-});
+
 
 // 3- Using return with Arguments
 // This is how most functional programming occurs
 // Variables values are defined on the fly by parameters passed into functions
 function addThings(val1, val2) {
   var sum = val1 + val2;
-  return sum;
 }
-var newNumber = addThings(1414, 8908098);
-console.log(newNumber);
+addThings(1414, 765);
+console.log(sum);
