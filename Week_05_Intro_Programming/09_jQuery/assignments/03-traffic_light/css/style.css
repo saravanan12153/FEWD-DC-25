@@ -35,3 +35,15 @@ body {
   margin: 25px auto;
   transition: background 500ms;
 }
+
+.bulbred {
+  background-color: red;
+}
+
+.bulbyellow {
+  background-color: yellow;
+}
+
+.bulbgreen {
+  background-color: green;
+}
