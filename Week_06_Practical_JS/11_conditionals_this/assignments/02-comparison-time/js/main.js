@@ -111,8 +111,10 @@ setValueInHTML();
 // 3- Using return with Arguments
 // This is how most functional programming occurs
 // Variables values are defined on the fly by parameters passed into functions
+var sum;
+
 function addThings(val1, val2) {
-  var sum = val1 + val2;
+  sum = val1 + val2;
 }
 addThings(1414, 765);
 console.log(sum);
