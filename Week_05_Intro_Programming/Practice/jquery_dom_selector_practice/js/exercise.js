@@ -85,7 +85,22 @@
  * Bonus: Try to do this with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"});
  */
 
+//jquery trials and methods
+console.log("hello world")
 
+$('#firsttext').css({
+	'font-size': '60px',
+	'color': 'green'
+});
+
+function sydney() {
+	$('#target').css({
+		'background-color': 'purple',
+		'color': 'white'
+	});
+	}
+
+$('#clickable').click(sydney);
 
 
 

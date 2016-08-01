@@ -211,6 +211,7 @@ function crankyAyana () {
 }
 crankyAyana();
 =======
+<<<<<<< Updated upstream
 // Now, it's your turn, 
 //Make 10 variables: 4 strings, 4 numbers, 1 null, 1 Boolean - experiment with them 
 //Calculate and output: 
@@ -250,4 +251,37 @@ function whoThat(donaldTrump) {
 }
 whoThat(44);
 
+=======
+
+
+var sadAyana = "Cry till Noon";
+var hungryAyana = "burgers and fries";
+var ageAyana = 26;
+var yrAyanaHighschool = 2007; 
+var yrAyanaCollege = 2011;
+var yrAyanaDeveloper = 2016;
+var yrAyanaMarried = null;
+var ayanaLife = Boolean("Awesome");
+var firstName = "Ayana"
+var lastName = "Christie"
+
+var happyAyana = "On Vacation";
+function goodMoodAyana (){
+  console.log(happyAyana);
+}
+goodMoodAyana ();
+
+
+var tiredAyana = "Sleep till Noon";
+function crankyAyana (){
+  console.log(tiredAyana + " and " + sadAyana);
+}
+crankyAyana ();
+
+console.log(100*10);
+console.log(90/9);
+console.log(87-58);
+console.log(1230+2139);
+console.log(firstName + lastName)
+>>>>>>> Stashed changes
 >>>>>>> Stashed changes

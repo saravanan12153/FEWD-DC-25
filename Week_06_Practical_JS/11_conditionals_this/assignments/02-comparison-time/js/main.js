@@ -51,10 +51,12 @@ if (daysInAWeek <= blackJack) {
 }
 
 // 4- Another integer comparison, using else if
-var blackJack = 21, daysInAWeek = 7;
+var blackJack = 21, daysInAWeek = 27;
 if (blackJack <= daysInAWeek) {
   // false, blackJack is not less than or equal to daysInAWeek
+  $("#blackjack-container").html("<img src=\"http://vignette4.wikia.nocookie.net/icarly/images/3/37/Sad-face.png/revision/latest?cb=20120729221450\">");
 } else if (blackJack >= daysInAWeek) {
+
   $("#blackjack-container").html("<img src=\"http://blackjacklife.com/wp-content/uploads/2012/01/blackjack-picture-1.jpg\">");
 }
 

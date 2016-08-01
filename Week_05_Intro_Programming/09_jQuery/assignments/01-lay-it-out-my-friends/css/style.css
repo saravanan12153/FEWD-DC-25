@@ -56,8 +56,44 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
-  width: 960px;
+
+.headercontainer{
+  background-color: red;
+  display: block;
+  height: 200px;
+  width: 100%;
+  margin: auto;
+}
+.container2 {
+  background-color: pink;
+  display: block;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+}
+.box1, .box3{
+  background-color: grey;
+  display: block;
+  float: left;
+  height: 500px;
+  width: 33%;
+  margin: auto;
+}
+ .box2{
+  background-color: white;
+  display: block;
+  float: left;
+  height: 500px;
+  width: 32%;
+  margin: 0 1%;
+}
+
+
+.container3 {
+  background-color: brown;
+  display: block;
+  height: 200px;
+  width: 100%;
   margin: auto;
 }
 
