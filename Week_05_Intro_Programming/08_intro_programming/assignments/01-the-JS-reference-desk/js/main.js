@@ -197,7 +197,6 @@ console.log(Chinatown); // output True
 alert("How annoying is this box popping up? Amiright?");
 
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 console.log(100*10);
 
 var hillaryClinton = 45;
@@ -251,6 +250,4 @@ function whoThat(donaldTrump) {
 }
 whoThat(44);
 
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes

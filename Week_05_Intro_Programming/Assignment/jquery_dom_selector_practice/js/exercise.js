@@ -14,7 +14,7 @@
  */
  
 	function question1(){
-		$("p").css("color", "blue");
+		$("replaceMe").css("replaceMe", "replaceMe");
 	}
 
 	$("#button1").click(question1);
