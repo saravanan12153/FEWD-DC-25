@@ -36,6 +36,7 @@ body {
   transition: background 500ms;
 }
 
+<<<<<<< Updated upstream
 .red{
   
   background-color: red;
@@ -47,5 +48,17 @@ body {
 }
 
 .green{
+=======
+.bulbstop{
+  background-color: red;
+}
+
+.bulbslow {
+  background-color: yellow;
+}
+
+
+.bulbgo {
+>>>>>>> Stashed changes
   background-color: green;
 }
