@@ -1,4 +1,3 @@
-
 //#### 1. Border around author's name ####//
     $(".author-name").css({"border": "red 14px solid"});
 
@@ -15,6 +14,7 @@
     $("h3").css({"background-color": "green",
         "color":"white"
         });
+<<<<<<< HEAD
 
         //####wrong assignment below####//
 // ######################################################################
@@ -145,3 +145,5 @@ $(document).find("h3").css({
 });
 
 }); //close document.ready
+=======
+>>>>>>> refs/remotes/origin/master
