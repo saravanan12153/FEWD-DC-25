@@ -1,9 +1,13 @@
-.nav-container {
-
+.heading-container {
+  background-color: #222;
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+  height: 35px;
 }
 
 .item {
-
+  display: inline-block;
 }
 
 .big-text {
