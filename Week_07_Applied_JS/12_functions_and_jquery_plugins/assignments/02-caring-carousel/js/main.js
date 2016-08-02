@@ -11,5 +11,5 @@ $('.carousel-container').flickity({
   cellAlign: 'left',
   contain: true,
   setGallerySize: false,
-  wrapAround: true
+  wrapAround: true,
 });

@@ -1,16 +1,105 @@
-.nav-container {
 
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
 }
+
+.done {
+	color: grey;
+	font-style: italic;
+}
+
+body {
+	font-family: "Raleway";
+}
+
+h1, h2, h3, h4 {
+	font-family: "Bangers";
+	letter-spacing: 2px;
+}
+
+.nav-container {
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 100px;
+}
+
+.logo {
+	float: left;
+	margin: 40px 0 0 5%;
+}
+
+/*.item-container {
+	float: right;
+	width: 60%;
+	margin: 40px 0 5% 0;
+	border: 1px solid red;
+}*/
+
 
 .item {
-
+	float: right;
+	margin: 40px 0 0 10px;
 }
+	.item:nth-child(2) {
+		/*color: hsla(115, 100%, 18%, 1); /* dark green */
+		margin-right: 5%;
+	}
 
 .big-text {
   font-size: 24px;
-  margin: 0 25px 25px 25px;
+/*  margin: 0 25px 25px 25px;*/
+  margin: 40px 2.5% 0 5%;
+  width: 65%;
+  float: left;
 }
+	.big-text li {
+		text-decoration: line-through;
+	}
 
 p {
   margin: 12.5px;
 }
+
+.img-left {
+	float: left;
+	margin: 30px 30px 30px 0;
+}
+
+.img-right {
+	float: right;
+	margin: 30px 0 30px 30px;
+}
+
+#nav-components {
+	display: none;
+	margin-top: 40px;
+}
+
+#nav-components-2 {
+	display: none;
+	margin-top: 40px;
+}
+
+.orangey {
+	background-color: orange;
+	color: white;
+}
+
+aside {
+	width: calc(20% - 20px);
+	margin: 40px 5% 0 2.5%;
+	float: right;
+	background-color: hsla(115, 100%, 18%, 1); /* dark green */
+	color: hsla(360, 0%, 81%, 1); /* light grey */
+	padding: 10px;
+}
+
+
