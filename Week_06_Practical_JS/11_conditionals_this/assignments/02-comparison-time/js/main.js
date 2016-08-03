@@ -52,11 +52,16 @@ if (daysInAWeek <= blackJack) {
 
 // 4- Another integer comparison, using else if
 <<<<<<< HEAD
+<<<<<<< HEAD
 var blackJack = 21, daysInAWeek = 27;
 if (blackJack <= daysInAWeek) {
   // false, blackJack is not less than or equal to daysInAWeek
   $("#blackjack-container").html("<img src=\"http://vignette4.wikia.nocookie.net/icarly/images/3/37/Sad-face.png/revision/latest?cb=20120729221450\">");
 =======
+=======
+
+daysInAWeek = 27;
+>>>>>>> origin/master
 if (blackJack <= daysInAWeek) {
   $("#blackjack-container").html("<img src=\"http://www.clipartbest.com/cliparts/Kin/oyR/KinoyRpiq.jpeg\">");
   $("#blackjack-container img").css({
@@ -69,6 +74,26 @@ if (blackJack <= daysInAWeek) {
   $("#blackjack-container").html("<img src=\"http://blackjacklife.com/wp-content/uploads/2012/01/blackjack-picture-1.jpg\">");
 }
 
+// Data types
+// All of them are objects!!!!
+var bigNumber = 32094830948; //integer
+var bigWord = "Delicious dinner awaits me at home, I think"; //string
+var trueOrNot = false; // Boolean
+var donaldTrumpsBrain = null; // null
+var newConceptSorta = function whaaaaat(){}; // function
+console.log(newConceptSorta);
+
+// 5- Setting a Boolean based on variable values
+// Note the program flow here, this is getting more advanced
+var octopusLegs = 8, maxVolumeLevel = 8;
+var checkVal;
+
+if (octopusLegs !== maxVolumeLevel) {
+  checkVal = false;
+} else if (octopusLegs === maxVolumeLevel) {
+  checkVal = true;
+}
+=======
 
 // 5- Setting a Boolean based on variable values
 // Note the program flow here, this is getting more advanced
@@ -107,17 +132,23 @@ setValueInHTML();
 // 2- Think about using .val() constructively with forms
 // What does `this` represent when used in this function?
 // Why didn't I have to call this function?
+<<<<<<< Updated upstream
+
+=======
 $( "button" ).click(function() {
   var text = $( this ).text();
   $( "#input-destination" ).val( text );
 });
+console.log('word change');
+>>>>>>> Stashed changes
 
 // 3- Using return with Arguments
 // This is how most functional programming occurs
 // Variables values are defined on the fly by parameters passed into functions
+var sum;
+
 function addThings(val1, val2) {
-  var sum = val1 + val2;
-  return sum;
+  sum = val1 + val2;
 }
-var newNumber = addThings(1414, 8908098);
-console.log(newNumber);
+addThings(1414, 765);
+console.log(sum);

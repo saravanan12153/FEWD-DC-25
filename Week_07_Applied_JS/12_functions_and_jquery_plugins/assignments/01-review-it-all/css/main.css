@@ -1,0 +1,92 @@
+.clearfix:after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.nav-container {
+background-color: #261E40;
+color:white;
+display: block;
+font-family: 'Righteous', cursive;
+font-size: 20px;
+height: 65px;
+text-align: center;
+width: 100%;
+}
+.title{
+	float: left;
+	margin:20px;
+}
+.item {
+	float:right;
+	margin: 20px 5px;
+
+}
+
+.big-text {
+background-color:white;
+font-size: 16px;
+  float: left;
+  width:80%;
+
+}
+.aside{
+	background-color: #3C335A;
+	color:white;
+	float:right;
+	height: 4000px;
+	max-width: 20%;
+	overflow: hidden;
+	width:20%;
+
+}
+.asideh2{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	margin-top: 40px;
+}
+ul{
+	font-family: 'Raleway', sans-serif;
+	font-size:16px;
+	margin:10px 20px;
+}
+.banffimg{
+	float:right;
+	max-width: 80%;
+	margin: 20px 40px 20px 20px;
+}
+.acadia{
+	float: left;
+	max-width: 80%;
+	margin: 20px 20px 20px 40px;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  margin: 20px 40px 20px 40px;
+}
+h2{
+	font-family: 'Righteous', cursive;
+	margin:0 40px;
+}
+button{
+	margin:20px 40px;
+}
+footer{
+	background-color:#3C335A;
+	clear: both;
+	display:block;
+	height: 30px;
+	width:100%;
+}
+.maincontainer{
+	background-color: #3C335A;
+}
+.tcorange{
+	background-color: orange;
+	color: white;
+
+}
+.instructions{
+	text-decoration: line-through;
+}

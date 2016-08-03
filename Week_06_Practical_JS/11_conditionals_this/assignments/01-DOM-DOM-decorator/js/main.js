@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 
 =======
+=======
+>>>>>>> origin/master
 //#### 1. Border around author's name ####//
     $(".author-name").css({"border": "red 14px solid"});
 
@@ -18,6 +21,7 @@
     $("h3").css({"background-color": "green",
         "color":"white"
         });
+<<<<<<< HEAD
 
         //####wrong assignment below####//
 >>>>>>> origin/master
@@ -46,3 +50,5 @@ $('h3').css({
   "padding": "5px",
   "color":"white"
 });
+=======
+>>>>>>> origin/master

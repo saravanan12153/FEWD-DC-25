@@ -36,6 +36,7 @@ body {
   transition: background 500ms;
 }
 
+<<<<<<< HEAD
 .red{
    background-color: red;
 }
@@ -44,4 +45,16 @@ body {
 }
 .green{
   background-color:green;
+=======
+.bulbred {
+  background-color: red;
+}
+
+.bulbyellow {
+  background-color: yellow;
+}
+
+.bulbgreen {
+  background-color: green;
+>>>>>>> origin/master
 }
