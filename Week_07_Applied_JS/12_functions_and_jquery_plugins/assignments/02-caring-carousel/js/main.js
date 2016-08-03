@@ -1,10 +1,11 @@
 // ############################################################
 // ######################## Applied JS ########################
 // ############################################################
-// Comparing things in Javascript
 
 // Using a Flickity carousel with jQuery
-// initialization for homepage carousel
+// Initialization for carousel just attaches like any other jQuery method
+// It works very similar to how you would define multiple CSS property/value pairs with the .css() method
+// Check out the JSON notation for the options
 $('.carousel-container').flickity({
   // options
   autoPlay: 2000,
