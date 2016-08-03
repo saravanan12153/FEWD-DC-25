@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: justify;
+  margin: 0 auto;
+  font-family: 'Crimson Text', sans-serif;
+}
+
+h2 {
+  font-family: 'Reem Kufi', sans-serif ;
+}
+
+#top-of-the-world {
+  color: #ffffff;
+  background-color: #000000;
+  height: 100px;
+}
+
+.nav-container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#company {
+  float: left;
+  width: 95%;
+  font-size: 34px;
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+#items {
+  width: 5%;
+  float: right;
+  margin-top: -15px;
+}
+
+a:link, .item-left {
+  color: #999999;
+  text-decoration: none;
+}
+
+a:hover, .item-left {
+  color: #333333;
+  text-decoration: none;
+}
+
+.big-text {
+  float: left;
+  font-size: 24px;
+  width: 80%;
+  padding: 0px 50px;
+}
+
+p {
+  margin: 12.5px;
+}
+
+.sidebar-container {
+  width: 20%;
+  float: left;
+  background-color: #999999;
+  height: 1000px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
