@@ -1,16 +1,64 @@
 .nav-container {
+  height: 200px;
+  width: 100%;
+}
+.company {
+	float: left;
+	width: 60%;
+	height: 100px;
+	color: white;
+	background-color: black;
+	font-size: 40px;
+}
 
+.menu {
+	float: right;
+	width: 40%;
+	height: 100px;
+	background-color: black;
 }
 
 .item {
-
+float: left;
+font-size: 35px;
+color: white;
+margin: 10px;
 }
 
 .big-text {
+  float: left;
+  width: 75%;
   font-size: 24px;
   margin: 0 25px 25px 25px;
 }
 
 p {
   margin: 12.5px;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
+h1 {
+	font-family: 'Uncial Antiqua', cursive;
+}
+
+h2 {
+	font-family: 'Uncial Antiqua', cursive;
+}
+
+aside {
+	float: right;
+	width: 20%;
+	background-color: #002b47;
+	color: white;
+	padding: 5px;
+}
+
+.img-right {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.img-left {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
 }
