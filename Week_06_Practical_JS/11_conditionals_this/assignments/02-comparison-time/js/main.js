@@ -51,13 +51,18 @@ if (daysInAWeek <= blackJack) {
 }
 
 // 4- Another integer comparison, using else if
+<<<<<<< Updated upstream
 
 daysInAWeek = 27;
+=======
+var blackJack = 21, daysInAWeek = 27;
+>>>>>>> Stashed changes
 if (blackJack <= daysInAWeek) {
   $("#blackjack-container").html("<img src=\"http://www.clipartbest.com/cliparts/Kin/oyR/KinoyRpiq.jpeg\">");
   $("#blackjack-container img").css({
     "height": "300px",
     "width": "300px"
+<<<<<<< Updated upstream
   });
 } else if (blackJack >= daysInAWeek) {
   $("#blackjack-container").html("<img src=\"http://blackjacklife.com/wp-content/uploads/2012/01/blackjack-picture-1.jpg\">");
@@ -97,6 +102,34 @@ if (octopusLegs !== maxVolumeLevel) {
 }
 console.log(checkVal);
 
+=======
+
+  });
+    // false, blackJack is not less than or equal to daysInAWeek
+  } else if (blackJack >= daysInAWeek) {
+    $("#blackjack-container").html("<img src=\"http://blackjacklife.com/wp-content/uploads/2012/01/blackjack-picture-1.jpg\">");
+  }
+  
+// 5- Setting a Boolean based on variable values
+// Note the program flow here, this is getting more advanced
+var octopusLegs = 8, maxVolumeLevel = 45;
+var checkVal;
+
+
+if (octopusLegs !== maxVolumeLevel) {
+  var checkVal = false;
+} else if (octopusLegs === maxVolumeLevel) {
+  checkVal = true;
+
+}
+
+console.log(checkVal);
+
+
+
+
+
+>>>>>>> Stashed changes
 function calamari () {
   if (checkVal === true) {
     $(".box-example-1").css({
@@ -131,5 +164,10 @@ var sum;
 function addThings(val1, val2) {
   sum = val1 + val2;
 }
+<<<<<<< Updated upstream
 addThings(1414, 765);
 console.log(sum);
+=======
+
+addThings(1414, null);
+>>>>>>> Stashed changes

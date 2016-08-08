@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 $("#take-me-home, #take-me-home-2, #take-me-home-3").click(function() {
   $.scrollTo('#start-of-page', 800);
 });
+=======
+$("#take-me-home, #take-me-home2, #take-me-home3").click(function() {
+ $.scrollTo("#top-of-the-world", 800);
+
+});
+
+>>>>>>> origin/master
 
 $(".yellow").bacon({
         'type' : 'bezier',

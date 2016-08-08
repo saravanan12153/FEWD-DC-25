@@ -197,20 +197,32 @@ console.log(Chinatown); // output True
 alert("How annoying is this box popping up? Amiright?");
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 console.log(100*10);
 
 var hillaryClinton = 45;
 var georgeWashington = 1;
+<<<<<<< Updated upstream
 console.log((hillaryClinton * 2)/(georgeWashington * 9));
+=======
+console.log(hillaryClinton * 2)/(georgeWashington * 9);
+>>>>>>> Stashed changes
 
 var tiredAyana = "Sleep till noon";
 var sadAyana = "Cry till noon";
 
+<<<<<<< Updated upstream
 function crankyAyana () {
   console.log(tiredAyana + " and " + sadAyana);
 }
 crankyAyana();
 =======
+<<<<<<< Updated upstream
 // Now, it's your turn, 
 //Make 10 variables: 4 strings, 4 numbers, 1 null, 1 Boolean - experiment with them 
 //Calculate and output: 
@@ -249,5 +261,21 @@ function whoThat(donaldTrump) {
   }
 }
 whoThat(44);
+=======
+function crankyAyanna () {
+  console.log(tiredAyana + " and " + sadAyana);
+
+}
+
+crankyAyanna();
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 
 >>>>>>> Stashed changes
