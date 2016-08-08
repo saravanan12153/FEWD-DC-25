@@ -22,6 +22,12 @@ div {
   z-index: 10;
 }
 
+.countdown {
+  height: 200px;
+  width: 100%;
+}
+
+
 .item {
   display: inline-block;
   padding: 25px;

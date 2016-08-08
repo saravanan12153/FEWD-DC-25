@@ -15,7 +15,7 @@ $("#orange-paragraph").css({
 	"color": "white"
 });
 }
-$(".button-style").click(FunctionName);
+$(".button-style").toggleClass(FunctionName);
 
 
 
