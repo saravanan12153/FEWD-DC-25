@@ -1,3 +1,7 @@
+//opening document ready
+$(document).ready(function(){
+
+
 // ########################################################
 // ######################## jQuery ########################
 // ########################################################
@@ -35,8 +39,13 @@ $("#redacted-funny-bone").html('<span>Darryl wants to know if this works. Of cou
 var exampleTwo = $("#funny-bone-again").text();
 console.log(exampleTwo);
 
+<<<<<<< Updated upstream
 var exampleTen = $("#there-is-hope").text();
 console.log(exampleTen);
+=======
+var exampleLaura =$("#laura-sample").text();
+console.log(exampleLaura);
+>>>>>>> Stashed changes
 
 <<<<<<< Updated upstream
 =======
@@ -61,6 +70,13 @@ $(".green-sunglasses").css({
 
 
 
+
+//multiple css styling example//
+
+//	$(".green-sunglasses").css({
+//	"color": "limegreen",
+//	"font-size": "50px"
+//	})
 
 
 // ###################################################################
@@ -112,6 +128,7 @@ $("#click-trial-02").click(function(){
   $("#click-appear-red-02").addClass("red");
 });
 
+
 // #############################################################
 // ######################## Hover Event ########################
 // #############################################################
@@ -161,3 +178,6 @@ $("#click-slide-toggle").click(function(){
 // Find HTML ID numbers-1 and color it red
 var numberOne = document.getElementById('numbers-1');
 numberOne.style.color = "red";
+
+//closing document ready
+});
