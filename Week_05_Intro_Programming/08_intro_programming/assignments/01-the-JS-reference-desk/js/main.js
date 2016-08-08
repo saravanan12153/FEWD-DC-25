@@ -197,7 +197,6 @@ console.log(Chinatown); // output True
 alert("How annoying is this box popping up? Amiright?");
 
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 console.log(100*10);
 
 var hillaryClinton = 45;
@@ -285,6 +284,4 @@ console.log(87-58);
 console.log(1230+2139);
 console.log(firstName + lastName)
 >>>>>>> Stashed changes
->>>>>>> Stashed changes
-=======
 >>>>>>> Stashed changes

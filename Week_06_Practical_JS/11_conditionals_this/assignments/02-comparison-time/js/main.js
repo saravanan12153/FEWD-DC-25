@@ -132,15 +132,7 @@ setValueInHTML();
 // 2- Think about using .val() constructively with forms
 // What does `this` represent when used in this function?
 // Why didn't I have to call this function?
-<<<<<<< Updated upstream
 
-=======
-$( "button" ).click(function() {
-  var text = $( this ).text();
-  $( "#input-destination" ).val( text );
-});
-console.log('word change');
->>>>>>> Stashed changes
 
 // 3- Using return with Arguments
 // This is how most functional programming occurs
