@@ -34,11 +34,17 @@ div {
 
 p {
   margin: 12.5px;
+  height: 14px;
+
 }
 
 .button-style {
   color: red;
   margin: 35px 10px;
+}
+
+.yellow {
+  height: 18px;
 }
 
 #show-me-when-scrolling {
