@@ -1,4 +1,8 @@
 <<<<<<< Updated upstream
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> origin/master
 .heading-container {
 
 }
@@ -26,6 +30,62 @@
 .logo {
   float: left;
   font-size: 38px;
+<<<<<<< HEAD
+
+}
+=======
+=======
+
+header {
+	background-color: black;
+	color: white;
+	min-height: 100px;
+
+
+}
+
+h1 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	color: #10f;
+}
+
+img {
+float: right;
+
+}
+
+.company {
+	font-size: 45px;
+	display: inline-block;
+
+}
+
+.right-navigation {
+	float: right;
+	color: white;
+	display: inline-block;
+>>>>>>> origin/master
+
+.nav-items li{
+  float: right;
+  display: inline;
+  font-size: 18px;
+  padding-left: 36px;
+}
+
+<<<<<<< HEAD
+=======
+.item {
+	display: inline-block;
+	padding: 25px 10px;
+
+}
+
+
+
+.nav-container {
+	
+>>>>>>> Stashed changes
 
 }
 
@@ -36,6 +96,7 @@
   padding-left: 36px;
 }
 
+>>>>>>> origin/master
 #sidebar{
   background-color: limegreen;
   color: white;
@@ -82,10 +143,21 @@ h2 {
 =======
   font-size: 24px;
   margin: 0 25px 25px 25px;
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+>>>>>>> origin/master
   width: 80%;
 }
 h2 {
   font-family: 'Anton', sans-serif;
+<<<<<<< HEAD
+=======
+=======
+  float: left;
+  
+>>>>>>> Stashed changes
+>>>>>>> origin/master
 }
 
 p {
@@ -105,4 +177,23 @@ p {
   color: black;
   font-size: 18px;
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+=======
 }
+
+
+aside {
+	background-color: #061817;
+	color: white;
+	float: left;
+  	width: 20%;
+  	padding: 1%;
+
+
+>>>>>>> origin/master
+}
+
+
+
+
+
