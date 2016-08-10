@@ -2,15 +2,23 @@ body {
     padding: 1em;
 }
 
+.clearfix:after {
+  display: block;
+  content: " ";
+  clear: both;
+}
+
 nav {
     border: 1px solid black;
     display: inline-block;
-    width: 100%
+    width: 100%;
+    background-color: lightblue;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
+
 }
 
 nav li {
@@ -21,6 +29,7 @@ nav li {
     margin: 1%;
     padding: 0;
     border: 1px solid black;
+    background-color: white;
 }
 
 nav li.menu {
@@ -31,24 +40,34 @@ nav li.menu {
 header {
     border: 1px solid black;
     height: 60px;
+    background-color: lightyellow;
 }
 
 main {
     margin: 20px 0 0;
     display: inline-block;
     width: 100%;
+    border: 3px solid blue;
 }
 
 main section {
     float: left;
-    width: 24%;
-    margin: 0 0 0 1%;
+    width: 96%;
+    margin: 10px 1%;
     height: 60px;
     border: 1px solid black;
+    padding: 2px;
+    background-color: lightgrey;
 }
 
-main section:first-child {
-    margin: 0;
+@media screen and (min-width: 480px) {
+  .stack-1 {
+    width: 22%;
+    margin: 1%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300px;
+  }
 }
 
 footer {
@@ -57,12 +76,20 @@ footer {
     display: inline-block;
     width: 100%;
     border: 1px solid black;
+    background-color: lightpink
 }
 
 footer section {
     float: left;
-    width: 31%;
+    width: 96%;
     margin: 10px 1%;
     height: 60px;
+    background-color: lightgrey;
+}
+
+@media screen and (min-width: 480px) {
+    footer section {
+    width: 31%;
+}
 }
 
