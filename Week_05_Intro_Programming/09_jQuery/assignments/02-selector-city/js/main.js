@@ -134,6 +134,7 @@ $("#click-trial-02").click(function(){
 // #############################################################
 // Exactly like a click event in every way, except I usually hover and add class to same ID
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 $(document).ready(function() {
 
 });
@@ -147,6 +148,14 @@ $("#hover-appear-red-03").hover(function(){
   $("#hover-appear-red-03").addClass("red");
 
 	});
+=======
+function funFunction() {
+	$("#hover-appear-red-03").addClass("red");
+}
+
+$(document).ready(function(){
+	$("#hover-appear-red-03").hover(funFunction);
+>>>>>>> Stashed changes
 });
 
 <<<<<<< Updated upstream
