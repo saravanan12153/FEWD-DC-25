@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .clearfix:after {
   clear: both;
   content: " ";
@@ -22,6 +23,8 @@ width: 100%;
 	float:right;
 	margin: 20px 5px;
 =======
+=======
+>>>>>>> origin/master
 <<<<<<< Updated upstream
 .heading-container {
 
@@ -194,8 +197,39 @@ p {
   color: black;
   font-size: 18px;
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> origin/master
 }
 .instructions{
 	text-decoration: line-through;
 }
+=======
+<<<<<<< HEAD
+=======
+}
+
+
+aside {
+	background-color: #061817;
+	color: white;
+	float: left;
+  	width: 20%;
+  	padding: 1%;
+
+
+>>>>>>> origin/master
+}
+
+
+
+
+
+>>>>>>> origin/master
+=======
+}
+>>>>>>> origin/master
+=======
+}
+>>>>>>> origin/master

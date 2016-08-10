@@ -1,7 +1,7 @@
 body {
     padding: 1em;
 }
-
+/* GLOBALS */
 nav {
     border: 1px solid black;
     display: inline-block;
@@ -33,36 +33,58 @@ header {
     height: 60px;
 }
 
+
 main {
-    margin: 20px 0 0;
-    display: inline-block;
+    display:block;
     width: 100%;
+    margin: 10px 0;
 }
 
-main section {
+.redarticle {
     float: left;
-    width: 24%;
-    margin: 0 0 0 1%;
+    width: 98%;
+    margin: 1% 0;
     height: 60px;
-    border: 1px solid black;
+    border: 1% solid black;
+    background-color:red;
+}
+/* DESKTOP */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+ .redarticle {
+    margin: 1%;
+    width: 48%;
+  }
 }
 
-main section:first-child {
-    margin: 0;
+@media screen and (min-width: 768px) {
+.redarticle {
+    margin: 1%;
+    width: 23%;
+  }
 }
+
+
 
 footer {
-    margin: 20px 0;
+    margin: 1%;
     border: 1px solid black;
     display: inline-block;
-    width: 100%;
+    width: 98%;
     border: 1px solid black;
 }
 
 footer section {
     float: left;
-    width: 31%;
+    width: 98%;
     margin: 10px 1%;
     height: 60px;
+    background-color: green;
+}
+/* DESKTOP */
+@media screen and (min-width: 480px) {
+footer section {
+    margin: 1%;
+    width: 31%;
+  }
 }
 

@@ -53,11 +53,30 @@ if (daysInAWeek <= blackJack) {
 // 4- Another integer comparison, using else if
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 var blackJack = 21, daysInAWeek = 27;
 if (blackJack <= daysInAWeek) {
   // false, blackJack is not less than or equal to daysInAWeek
   $("#blackjack-container").html("<img src=\"http://vignette4.wikia.nocookie.net/icarly/images/3/37/Sad-face.png/revision/latest?cb=20120729221450\">");
 =======
+=======
+
+daysInAWeek = 27;
+>>>>>>> origin/master
+=======
+<<<<<<< Updated upstream
+
+daysInAWeek = 27;
+=======
+var blackJack = 21, daysInAWeek = 27;
+>>>>>>> Stashed changes
+>>>>>>> origin/master
+=======
+
+daysInAWeek = 27;
+>>>>>>> origin/master
 =======
 
 daysInAWeek = 27;

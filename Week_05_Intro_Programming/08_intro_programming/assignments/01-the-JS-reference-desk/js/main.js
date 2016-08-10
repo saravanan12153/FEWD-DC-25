@@ -211,7 +211,6 @@ function crankyAyana () {
 }
 crankyAyana();
 =======
-<<<<<<< Updated upstream
 // Now, it's your turn, 
 //Make 10 variables: 4 strings, 4 numbers, 1 null, 1 Boolean - experiment with them 
 //Calculate and output: 
@@ -251,6 +250,7 @@ function whoThat(donaldTrump) {
 }
 whoThat(44);
 
+<<<<<<< HEAD
 =======
 
 
@@ -284,4 +284,6 @@ console.log(87-58);
 console.log(1230+2139);
 console.log(firstName + lastName)
 >>>>>>> Stashed changes
+=======
+>>>>>>> origin/master
 >>>>>>> Stashed changes
