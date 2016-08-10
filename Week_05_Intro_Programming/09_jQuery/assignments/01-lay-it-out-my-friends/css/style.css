@@ -61,7 +61,6 @@ body {
   margin: auto;
 }
 
-<<<<<<< Updated upstream
 <<<<<<< HEAD
 header {
   background-color: black;
@@ -97,49 +96,6 @@ footer {
 
 =======
 >>>>>>> origin/master
-=======
-<<<<<<< Updated upstream
-=======
-header {
-  width:100%;
-  background-color: gray;
-  height: 100px;
-  margin-bottom: 2%;
-
-}
-
-
-.box1{
-  float left;
-  width:40%;
-  background-color: gray;
-  height: 200px;
-  margin: 0 2% 2% 0;
-
-}
-
-.box2{
-  float: left;
-  width:40%;
-  background-color: gray;
-  height: 200px;
-  margin: 0 0 2% 0;
-
-}
-
-.section2{
-
-
-}
-
-footer {
-  width:100%;
-  background-color: gray;
-  height: 50px;
-}
-
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
