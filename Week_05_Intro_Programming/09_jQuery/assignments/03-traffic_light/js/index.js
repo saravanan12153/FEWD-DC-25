@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 //Implement the red light using jQuery. Don't forget to add the script tags.
 $(document).ready(function() {
    // WRITE OTHER CODE HERE!!
@@ -36,4 +37,14 @@ $("#goButton").click(function(){
 >>>>>>> origin/master
 =======
 //Implement the red light using jQuery. Don't forget to add the script tags.
+>>>>>>> origin/master
+=======
+//Implement the red light using jQuery. Don't forget to add the script tags.
+
+function redLight(){
+$('stopButton').click(function(){
+	$('stopLight).toggleClass ('red');
+
+});
+
 >>>>>>> origin/master
