@@ -1,6 +1,15 @@
-// ###########################################################
-// ######################## Variables ########################
-// ###########################################################
+// #################################################################
+// ######################## Basic Selectors ########################
+// #################################################################
+
+// Find HTML ID numbers-1 and color it red
+var numberOne = document.getElementById('numbers-1');
+numberOne.style.color = "red";
+
+
+
+
+
 
 // Initialize a variable, it automatically gets typed as a string
 var color = "red";
@@ -13,11 +22,7 @@ var color = "blue", daysinaweek = "7";
 
 // Variables can type switch, but you DONT WANT TO DO THIS
 var color = "blue";
-<<<<<<< Updated upstream
-color = 17;
-=======
 color = "17";
->>>>>>> Stashed changes
 
 // Variables must start with a letter, underscore (_) or dollar sign ($) - any alphanumerics are OK after that.
 var vegetable = "eggplant";
@@ -44,17 +49,6 @@ console.log(VeggieSalad); //will print "eggplant lettuce"
 // ##################################################################
 
 // Five types of variables are always primative variables - stored in the quick memory stack
-<<<<<<< Updated upstream
-var coinToss = "Alice in Chains"; // string
-var coinToss = 1776; 		// number
-
-console.log(typeof coinToss);
-
-// Null and undefined are basically the same: both just hold a meaningless value in a variable
-var feelingPostBreakUp = null; 	// null
-var goodIndoorPlant = "Now it's defined"; 			// undefined
-console.log(goodIndoorPlant);
-=======
 var grunge = "Alice in Chains"; // string
 var revolutionary = 1776; 		// number
 var coinToss = true; 			// boolean
@@ -62,7 +56,6 @@ var coinToss = true; 			// boolean
 // Null and undefined are basically the same: both just hold a meaningless value in a variable
 var feelingPostBreakUp = null; 	// null
 var goodIndoorPlant; 			// undefined
->>>>>>> Stashed changes
 
 // You can call 'typeof' to get the variable type
 var WWIIDate = 1942;
@@ -85,10 +78,6 @@ var bigAssNumber = 3.175e8; 	// basically 3.175 x 10^8
 
 var greetings = "Ahola!"; // string can contain a whole mix of stuff
 var architecturalStyle = 'Art Deco'; // use single quotes, they work and no one will give a shit
-<<<<<<< Updated upstream
-var goodQuestion = "37";
-=======
->>>>>>> Stashed changes
 
 // Escaping stuff is still pretty laborious ( \n = new line, \t = tab, \' = single quote \" = double quote)
 var declarationOfIndependence = "\"We hold these truths to be self-evident, that all men are created equal, \n that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.\""
@@ -153,18 +142,10 @@ var meaningOfLife = String(null); 				// returns 'null' - null and undefined var
 // Super basic function
 // Ouytput variable by calling function
 // Beginner mistake is not calling the function.
-<<<<<<< Updated upstream
-
-var Monday = "Apple a day on Mondays people, don\'t forget."
-
-function fruitOfTheDay() {
-  // console.log(Monday);
-=======
 var Monday = "Apple a day on Mondays people, don\'t forget."
 
 function fruitOfTheDay() {
   console.log(Monday);
->>>>>>> Stashed changes
 }
 fruitOfTheDay();
 
@@ -194,14 +175,7 @@ function kittyHawk(firstFlight) {
     console.log("Let us dream...");
   }
 }
-<<<<<<< Updated upstream
-
-kittyHawk(1909);
-
-
-=======
 kittyHawk(1900);
->>>>>>> Stashed changes
 
 // #######################################################################
 // ######################## Output to the Browser ########################
@@ -223,62 +197,3 @@ console.log(Chinatown); // output True
 // alert throw super annoying pop-ups in front of you
 // Again, super crude method to see your JS output, only useful for testing
 alert("How annoying is this box popping up? Amiright?");
-<<<<<<< Updated upstream
-
-<<<<<<< Updated upstream
-console.log(100*10);
-
-var hillaryClinton = 45;
-var georgeWashington = 1;
-console.log((hillaryClinton * 2)/(georgeWashington * 9));
-
-var tiredAyana = "Sleep till noon";
-var sadAyana = "Cry till noon";
-
-function crankyAyana () {
-  console.log(tiredAyana + " and " + sadAyana);
-}
-crankyAyana();
-=======
-// Now, it's your turn, 
-//Make 10 variables: 4 strings, 4 numbers, 1 null, 1 Boolean - experiment with them 
-//Calculate and output: 
-     //Product of 100 and 10
-     //Quotient of 90 and 9
-     //Difference of 87 and 58
-     //Sum of 1230 and 2139
-     //Make your name out of two variables
-//Create function that outputs at least 2 of the variables you made.
-var debbyDowner = "Ryan ";
-var jackRabbit = "Hoesing";
-var terribleTwo = "The age of my cat";
-var mistyMan = "We made a mistake!";
-
-var barrackObama = 44;
-var georgeWashington = 1;
-var abrahamLincoln = 16;
-var hillaryClinton = 45;
-
-var donaldTrump = null;
-
-var brexit = false;
-
-console.log ((hillaryClinton*2 + georgeWashington*10) + (georgeWashington*10));
-console.log ((hillaryClinton*2) / (georgeWashington*9));
-console.log (87-58);
-console.log (1230+2139);
-console.log (debbyDowner + jackRabbit);
-
-function whoThat(donaldTrump) {
-  if (donaldTrump >= 45) {
-    console.log(terribleTwo);
-  }
-  else {
-    console.log(mistyMan);
-  }
-}
-whoThat(44);
-
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
