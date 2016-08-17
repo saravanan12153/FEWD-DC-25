@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $(".author-content").children().css({
   "border": "1px solid red"
 })
@@ -23,6 +24,14 @@ $(".author-related-news-image").parent().css({
 
 =======
 >>>>>>> master
+=======
+
+<<<<<<< HEAD
+
+=======
+=======
+>>>>>>> origin/master
+>>>>>>> master
 //#### 1. Border around author's name ####//
     $(".author-name").css({"border": "red 14px solid"});
 
@@ -35,20 +44,28 @@ $(".author-related-news-image").parent().css({
 //#### 4. Make each H2 have a pink background with padding ####//
     $(document).find("h2").css("background", "pink");
 
-<<<<<<< Updated upstream
 //#### 5. Make each H3 have a green background with white text ####//
     $("h3").css({"background-color": "green",
         "color":"white"
         });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         //####wrong assignment below####//
+>>>>>>> master
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+        //####wrong assignment below####//
+>>>>>>> origin/master
 >>>>>>> master
 // ######################################################################
 // ######################## Comparison Operators ########################
 // ######################################################################
 // Comparing things in Javascript
+<<<<<<< HEAD
 
 // 1- You can compare strings but it's often pretty useless
 var color = "red", animal = "turtle";
@@ -74,6 +91,31 @@ if (otherColor === daysInAWeek) {
   console.log ("Blue and 7 are not equal because they are different variable types.");
 }
 
+=======
+$('#author-name').css({
+  "border-color": "red",
+  "border-size": "5px",
+  "border-style": "solid"
+});
+$('.author-related-news-image').parent().css({
+  "border-color": "orange",
+  "border-size": "5px",
+  "border-style": "solid"
+});
+
+$('.author-related-news-image,.media-object').hide();
+$('h2').css({
+  "background-color": "pink",
+  "padding": "5px"
+});
+$('h3').css({
+  "background-color": "green",
+  "padding": "5px",
+  "color":"white"
+});
+=======
+>>>>>>> origin/master
+>>>>>>> master
 =======
 =======
 >>>>>>> master
@@ -179,4 +221,12 @@ console.log(newNumber);
 >>>>>>> master
 =======
 >>>>>>> Stashed changes
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
 >>>>>>> master

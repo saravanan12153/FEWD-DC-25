@@ -1,7 +1,3 @@
-//opening document ready
-$(document).ready(function(){
-
-
 // ########################################################
 // ######################## jQuery ########################
 // ########################################################
@@ -39,20 +35,9 @@ $("#redacted-funny-bone").html('<span>Darryl wants to know if this works. Of cou
 var exampleTwo = $("#funny-bone-again").text();
 console.log(exampleTwo);
 
-<<<<<<< Updated upstream
 var exampleTen = $("#there-is-hope").text();
 console.log(exampleTen);
-=======
-var exampleLaura =$("#laura-sample").text();
-console.log(exampleLaura);
->>>>>>> Stashed changes
 
-<<<<<<< Updated upstream
-=======
-
-
-
->>>>>>> Stashed changes
 // Overwrite HTML contents in an ID
 // Note that I can include HTML tags right in there
 $("#redacted-funny-bone-again").text('How many coders does it take to screw in a light bulb?');
@@ -70,13 +55,6 @@ $(".green-sunglasses").css({
 
 
 
-
-//multiple css styling example//
-
-//	$(".green-sunglasses").css({
-//	"color": "limegreen",
-//	"font-size": "50px"
-//	})
 
 
 // ###################################################################
@@ -128,32 +106,18 @@ $("#click-trial-02").click(function(){
   $("#click-appear-red-02").addClass("red");
 });
 
-
 // #############################################################
 // ######################## Hover Event ########################
 // #############################################################
 // Exactly like a click event in every way, except I usually hover and add class to same ID
-<<<<<<< Updated upstream
 $(document).ready(function() {
 
 });
 
-=======
-
-
-$(document).ready(function() {
->>>>>>> Stashed changes
 $("#hover-appear-red-03").hover(function(){
   $("#hover-appear-red-03").addClass("red");
-
-	});
 });
 
-<<<<<<< Updated upstream
-=======
-
-
->>>>>>> Stashed changes
 // ##############################################################
 // ######################## .toggleClass ########################
 // ##############################################################
@@ -178,6 +142,3 @@ $("#click-slide-toggle").click(function(){
 // Find HTML ID numbers-1 and color it red
 var numberOne = document.getElementById('numbers-1');
 numberOne.style.color = "red";
-
-//closing document ready
-});

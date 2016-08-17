@@ -236,6 +236,7 @@ alert("No idea how to get this to pop up");
 =======
 <<<<<<< Updated upstream
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> master
 =======
 <<<<<<< Updated upstream
@@ -244,21 +245,18 @@ alert("No idea how to get this to pop up");
 
 >>>>>>> Stashed changes
 >>>>>>> Stashed changes
+>>>>>>> master
+=======
 >>>>>>> master
 console.log(100*10);
 
 var hillaryClinton = 45;
 var georgeWashington = 1;
-<<<<<<< Updated upstream
 console.log((hillaryClinton * 2)/(georgeWashington * 9));
-=======
-console.log(hillaryClinton * 2)/(georgeWashington * 9);
->>>>>>> Stashed changes
 
 var tiredAyana = "Sleep till noon";
 var sadAyana = "Cry till noon";
 
-<<<<<<< Updated upstream
 function crankyAyana () {
   console.log(tiredAyana + " and " + sadAyana);
 }
@@ -267,7 +265,6 @@ crankyAyana();
 >>>>>>> master
 =======
 =======
-<<<<<<< Updated upstream
 // Now, it's your turn, 
 //Make 10 variables: 4 strings, 4 numbers, 1 null, 1 Boolean - experiment with them 
 //Calculate and output: 
@@ -306,53 +303,42 @@ function whoThat(donaldTrump) {
   }
 }
 whoThat(44);
-=======
-<<<<<<< Updated upstream
-function crankyAyanna () {
-  console.log(tiredAyana + " and " + sadAyana);
 
+<<<<<<< HEAD
+=======
+
+
+var sadAyana = "Cry till Noon";
+var hungryAyana = "burgers and fries";
+var ageAyana = 26;
+var yrAyanaHighschool = 2007; 
+var yrAyanaCollege = 2011;
+var yrAyanaDeveloper = 2016;
+var yrAyanaMarried = null;
+var ayanaLife = Boolean("Awesome");
+var firstName = "Ayana"
+var lastName = "Christie"
+
+var happyAyana = "On Vacation";
+function goodMoodAyana (){
+  console.log(happyAyana);
 }
-
-crankyAyanna();
-
+goodMoodAyana ();
 
 
-
-
-
-
-=======
-var soda = "coke";
-var cars = "I drive an Acura";
-var pizzaToppings = "pepperoni" + "mushrooms" + "olives";
-var starWars = String("Luke, I am your father");
-var workingDaysinWeek = 7;
-var toesOnFoot = 5;
-var tiresOnCar = 4;
-var electionYear = 2016;
-var whatsInMyFridge = null;
-var jsIsEasy = false;
+var tiredAyana = "Sleep till Noon";
+function crankyAyana (){
+  console.log(tiredAyana + " and " + sadAyana);
+}
+crankyAyana ();
 
 console.log(100*10);
 console.log(90/9);
 console.log(87-58);
 console.log(1230+2139);
-
-var tall = "Laura";
-var creative = "Reseigh";
-console.log(tall + creative);
-
-var tiredAyana ="sleep till noon";
-var sadAyana = "cry till noon";
-
-function crankyAyana () {
-  console.log(tiredAyana + "and" + sadAyana);
-}
-
-crankyAyana();
+console.log(firstName + lastName)
 >>>>>>> Stashed changes
-
->>>>>>> Stashed changes
-
+=======
+>>>>>>> origin/master
 >>>>>>> Stashed changes
 >>>>>>> master

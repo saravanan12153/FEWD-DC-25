@@ -34,4 +34,30 @@ body {
   border-radius: 50%;
   margin: 25px auto;
   transition: background 500ms;
+<<<<<<< HEAD
+}
+
+<<<<<<< HEAD
+.red{
+   background-color: red;
+}
+.amber{
+  background-color:yellow;
+}
+.green{
+  background-color:green;
+=======
+.bulbred {
+  background-color: red;
+}
+
+.bulbyellow {
+  background-color: yellow;
+}
+
+.bulbgreen {
+  background-color: green;
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
 }

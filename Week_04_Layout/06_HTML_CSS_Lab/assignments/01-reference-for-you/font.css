@@ -1,0 +1,28 @@
+p{
+	font-size: 30px;
+}
+
+.systemfont{
+	background-color: pink;
+	font-family: arial, sans-serif;
+}
+.googlefont{
+	font-family: 'Lobster Two', georgia, cursive;
+}
+
+.bodyfont:after {
+	content:pseudo selector example;
+	background-color: green;
+	color: white;
+}
+.bodyfont{
+	font-family: 'Lora', arial, serif;
+}
+a:hover{
+	color: white;
+	background-color: limegreen;
+}
+a{
+	background:black;
+	color: white;
+}

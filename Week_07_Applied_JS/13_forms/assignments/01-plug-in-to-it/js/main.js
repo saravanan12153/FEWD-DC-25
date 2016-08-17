@@ -1,11 +1,15 @@
 <<<<<<< HEAD
-$("#take-me-home, #take-me-home-2, #take-me-home-3").click(function() {
-  $.scrollTo('#start-of-page', 800);
-});
-=======
-$("#take-me-home, #take-me-home2, #take-me-home3").click(function() {
- $.scrollTo("#top-of-the-world", 800);
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+$('#take-me-home, #take-me-home-2, #take-me-home-3').click(function() {
+	$.scrollTo('#start-of-page', 800);
+
+});
+var controller = $.superscrollorama();
+  controller.addTween('#carousel-title-1', TweenMax.from($('#carousel-title-1'), .5, {css:{opacity:0}}));
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 $("#take-me-home").click(function() {
 	$.scrollTo("#top-of-the-world", 800);
@@ -19,6 +23,8 @@ $("#take-me-home").click(function() {
   $('#countdown').countdown({
     timestamp   : new Date(2015, 0, 3) // January 3rd, 2018
 });
+=======
+>>>>>>> master
 =======
 });
 
@@ -40,4 +46,13 @@ $(".yellow").bacon({
         'align'     : 'right'
     }
 );
+<<<<<<< HEAD
+>>>>>>> master
+=======
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
+=======
+
+>>>>>>> origin/master
 >>>>>>> master
