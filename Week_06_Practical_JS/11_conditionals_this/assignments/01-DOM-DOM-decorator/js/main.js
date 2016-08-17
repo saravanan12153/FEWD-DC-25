@@ -35,10 +35,12 @@ $(".author-related-news-image").parent().css({
 //#### 4. Make each H2 have a pink background with padding ####//
     $(document).find("h2").css("background", "pink");
 
+<<<<<<< Updated upstream
 //#### 5. Make each H3 have a green background with white text ####//
     $("h3").css({"background-color": "green",
         "color":"white"
         });
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         //####wrong assignment below####//
@@ -72,6 +74,9 @@ if (otherColor === daysInAWeek) {
   console.log ("Blue and 7 are not equal because they are different variable types.");
 }
 
+=======
+=======
+>>>>>>> master
 // 2b - You could use the fact that they aren't the same to compare them
 if (otherColor !== daysInAWeek) {
   // true - because they aren't equal
@@ -123,6 +128,28 @@ calamari();
 // ######################## .val() ########################
 // ########################################################
 
+<<<<<<< HEAD
+=======
+$(".author-rule").next().css({
+  "border": "1px solid red",
+  
+});
+
+$("img").hide();
+
+$(document).fixed("h2").css{
+    "background": "pink"};
+
+$(document).fixed("h3").css{
+    "background": "green";
+
+
+
+};
+
+
+
+>>>>>>> master
 // 1- val() use to get value from input field
 var inputValue = $( "#input-set-placeholder-value" ).val();
 function setValueInHTML () {
@@ -147,5 +174,9 @@ function addThings(val1, val2) {
 }
 var newNumber = addThings(1414, 8908098);
 console.log(newNumber);
+<<<<<<< HEAD
 =======
+>>>>>>> master
+=======
+>>>>>>> Stashed changes
 >>>>>>> master

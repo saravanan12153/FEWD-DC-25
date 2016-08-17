@@ -1,0 +1,102 @@
+/* Starter styles */
+
+
+.relative-item {
+  background-color: pink;
+  position: relative;
+  height: 30px;
+  padding: 1%;
+  margin: 2%;
+  border: 1px solid black;
+}
+
+.relative-item-outlier {
+  background-color: orange;
+  position: relative;
+  top: 281px;
+  right: -150px;
+  height: 30px;
+  padding: 1%;
+  margin: 2%;
+  border: 1px solid black;
+  z-index: 10;
+}
+
+.stationary {
+  background-color: limegreen;
+  color: white;
+}
+
+.absolute-item {
+  background-color: lightblue;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 300px;
+  width: 300px;
+
+}
+
+.relative-item-2 {
+  height: 150px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  float: right;
+  margin: 1%;
+}
+
+.relative-container {
+  border: 1px solid #222;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+.absolute-item-1 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: lightyellow;
+  top: 20px;
+  left: 150px;
+}
+.absolute-item-2 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: grey;
+  top: 100px;
+  left: 200px;
+}
+.absolute-item-3 {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: lightpink;
+  top: 250px;
+  right: 400px;
+}
+
+.fixed-item {
+  background-color: midnightblue;
+  color: #fff;
+  border-top: 5px solid red;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 20;
+
+}
+
+.footer {
+  float: right;
+  width: 50%;
+}
+
+.fixed-item li {
+  float: left;
+  list-style: none;
+  width: 8%;
+  margin: 0 1% 0;
+}
