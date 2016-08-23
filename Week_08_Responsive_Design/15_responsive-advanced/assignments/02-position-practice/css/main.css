@@ -2,7 +2,20 @@
 
 .relative-item {
   background-color: pink;
+  position: relative;
+  margin: 1%;
 }
+
+.relative-item-moved {
+  background-color: orange;
+  border: 1px solid #000;
+  margin: 1%;
+  padding: 1%;
+  position: relative;
+  top: -100px;
+  left: 150px;
+}
+
 
 .stationary {
   background-color: limegreen;

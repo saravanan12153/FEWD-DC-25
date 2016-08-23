@@ -9,12 +9,27 @@
 	border: 1px solid black;
 	font-size: 28px;
 	height: 400px;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 
 .experiment-col-1 {
 	background-color: orange;
+<<<<<<< Updated upstream
 }
 
 .experiment-col-2 {
 	background-color: lightblue;
 }
+=======
+
+}
+
+
+.experiment-col-1 {
+	background-color: lightblue;
+
+}
+>>>>>>> Stashed changes
